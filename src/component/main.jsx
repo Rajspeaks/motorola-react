@@ -44,7 +44,7 @@ const Main = () =>{
 		  <Mototab/>
 		   
 		   
-		   //<Motogame/>
+			  {/*<Motogame/>*/}
 		   
 		   
 		   
