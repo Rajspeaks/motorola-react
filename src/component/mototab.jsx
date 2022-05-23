@@ -266,13 +266,14 @@ import '../css/mototab.css';
 		 <br/>
 		 </div>
 		 
-		 <div class="col-sm-3">
+		 <div class="col-sm-3 h">
 		  <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-1.png?v=3"
-            alt="Display of Moto Tab G70" height='270px' width='250px'
-          />
-		  <h4>IP52 Water Repellent Design**</h4>
-            <p align="justify">
+            alt="Display of Moto Tab G70" height='282px' width='270px'
+          /><br/><br/><br/>
+		  <h4>IP52 Water <br/>Repellent Design**</h4>
+		  <br/>
+            <p id="featurefont">
               Don't let the thought of protecting your device from spills &
               splashes worry you anymore.
             </p>
@@ -280,14 +281,15 @@ import '../css/mototab.css';
 		 
 		 </div>
 		 
-		 <div class="col-sm-3">
+		 <div class="col-sm-3 h">
 		 
 		 <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-2.png?v=3"
-            alt="Display of Moto Tab G70" height='270px' width='250px'
-          />
+            alt="Display of Moto Tab G70" height='282px' width='270px'
+          /><br/><br/><br/>
 		  <h4>Google Kids Space</h4>
-            <p align="justify">
+		  <br/>
+            <p id="featurefont">
               Make learning fun for your kids with access to apps, games, 100+
               free books & more.
             </p>
@@ -295,14 +297,15 @@ import '../css/mototab.css';
 		 
 		 </div>
 		 
-		 <div class="col-sm-3">
+		 <div class="col-sm-3 h">
 		 
 		 <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-3.png?v=3"
-            alt="Display of Moto Tab G70" height='270px' width='250px'
-          />
+            alt="Display of Moto Tab G70"  height='282px' width='270px'
+          /><br/><br/><br/>
 		  <h4>64/128 GB Storage</h4>
-            <p align="justify">
+		  <br/>
+            <p id="featurefont">
               Find enough room for all your entertainment with 64/128 GB of storage,
               expandable to 1 TB^ with a microSD card.
             </p>
@@ -310,14 +313,15 @@ import '../css/mototab.css';
 		 
 		 </div>
 		 
-		 <div class="col-sm-3">
+		 <div class="col-sm-3 h">
 		 
 		 <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-4.png?v=3"
-            alt="Display of Moto Tab G70" height='270px' width='250px'
-          />
+            alt="Display of Moto Tab G70"  height='282px' width='270px'
+          /><br/><br/><br/>
 		  <h4>TUV Certified Eye Protection</h4>
-            <p align="justify">
+		  <br/>
+            <p id="featurefont">
               Get maximum protection against the harmful digital blue light and
               enjoy a stress-free viewing experience.
             </p>
@@ -326,8 +330,7 @@ import '../css/mototab.css';
 		 </div>
 		 
 		 </div>
-		 
-		 <br/><br/><br/>
+		
 		 
 		 <div class="container">
 		
