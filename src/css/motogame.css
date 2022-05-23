@@ -1,0 +1,85 @@
+{/* Player 1: https://player.vimeo.com/video/668532931?h=c4164404ca&autoplay=1&loop=1&autopause=0&muted=1&texttrack=en */}
+
+	{/* Player2: https://player.vimeo.com/video/668543002?h=2225d6fb90&autoplay=1&loop=1&autopause=0&muted=1&texttrack=en  */}
+	
+	
+
+.gameouter{ background-color:#001428;
+    color: #fff;}
+	
+#header{
+   margin-top:54px;
+    }	
+	
+#header2{margin-top:70px;}
+
+.player1{background:none;width:100%; height:900px;margin-top:30px;}
+ .player2{background:none;width:100%; height:1000px;margin-top:100px;} 
+ 
+ 
+.player, .fallback { overflow: hidden; width: 100%; height: 100%; margin: 0; padding: 0; background-color: transparent; } .player.loading { opacity: 0; } 
+
+
+
+   .game{
+	   font-weight:100pt;
+	   font-size: 27px;
+	   font-family:"Times New Roman";
+	   line-height:50px;
+	   text-align:left;
+       margin-top: 10px;
+      /*  margin-left:20px;
+	   transform: translateX(+9%); */
+    }
+	
+.offer{
+       margin-top: 20px;
+       color: #fff;
+       font-size: 17px;
+       margin-right: 500px;
+	  /*  width:100%; */
+	   /* transform: translateX(-10%); */
+    }
+  /*  .sbi img{
+       margin-top: 2px;
+       max-width: 300px;
+	   height:59px;
+	   text-align:left;
+      margin-right: 1000px;
+    } */
+   .sale{
+      margin-top: 7px;
+      color: #fff;
+   font-size: 17px;
+   font-weight: 400;
+   margin-right: 100px;
+/* width:320px; */
+	   /* left:15%;
+	   transform: translateY(-20%); */
+
+    }
+   .flip img{
+       margin-top: 0px;
+       /* margin-left: 36px; */
+    }
+   
+   .a img{
+       margin-top: 100px;
+      width:260px;
+    }
+	.h{
+      border: 1px solid transparent;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 25px;
+      line-height: 50px;
+      padding: 0 25px;
+      height: 50px;
+      text-decoration: none;
+      border-color: #FFFFFF;
+      background-color: #eb150a;
+      color: #FFFFFF;
+      margin-right: 300px;
+      margin-top: 20px;
+    }

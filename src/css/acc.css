@@ -1,0 +1,131 @@
+#header{
+   margin-top:54px;
+    }
+	
+	
+.acc_family{
+	background-color:#001428;
+	color:white;
+	
+}
+	
+.acc_title{
+	font-size:30px;
+	text-align:center;
+	font-family:arial;
+}
+
+hr{
+    margin: 0px;
+    /* border: 1px; */
+    background-color: grey;
+}
+
+
+/* cards */
+
+.r1{
+	 margin-top: 128px;
+     margin-right:90px;	 
+	}
+
+.c1{
+	width: 360px;
+	height: 780px;
+	color:black;
+	text-align:left;
+	margin-left:90px;
+}
+
+
+.c2{
+	width: 370px;
+	height: 780px;
+	color:black;
+	text-align:left;
+	right: 8%;
+	}
+	
+.card-img-top{height:250px; width:250px;margin:auto;}
+
+
+.card-text{color:black; margin-right:50px;}
+
+.card-title{margin-left:6px;color:black;}
+
+
+.lm1{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:280px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+    margin-left:28px;
+	margin-top:150px;
+	}
+
+.lm2{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:280px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+    margin-left:28px;
+	margin-top:57px;
+	}
+
+
+/* --------------------------mobile version starts here:------------------------- */
+
+
+
+
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+	
+.lm-mobile-1{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:300px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+     margin:auto;
+	margin-top:45px;
+	}
+	
+.lm-mobile-2{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:300px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+	margin:auto;
+	margin-top:45px;
+	}
+	
+	
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+
+/* @media screen and (max-width: px) {
+	
+	#find_store{margin-top:} */

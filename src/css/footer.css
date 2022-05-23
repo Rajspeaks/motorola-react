@@ -1,0 +1,24 @@
+.foot{
+    background-color: #001428;
+}
+
+#inflag{margin-top:30px;}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+    color: white;
+    text-align:left;
+	float:left;
+    display: block;
+    width: auto;
+    border: none;
+	line-height: 21px;
+	
+}
+
+@media screen and (max-width: 900px) {
+  #logo {
+    width: 190px;
+  }
+}

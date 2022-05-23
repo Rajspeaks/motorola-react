@@ -1,0 +1,188 @@
+   
+    
+.carousel-caption desk{
+   color: white;
+   margin-right:10px;
+  
+   max-width: auto;
+   left: 10px;
+   top: 1px;
+ /*top: 50%; */
+ transform: translateY(15%);
+ bottom: initial;
+
+ padding:10px;
+ height:100%;
+ 
+    }
+    .carousel-caption img{
+       margin-right: 200px;
+    }
+  
+ 
+
+    .carousel-caption .game{
+	   font-weight:100pt;
+	   font-size: 27px;
+	   font-family:"Times New Roman";
+	   line-height:50px;
+       margin-top: 10px;
+       margin-left:20px;
+	   transform: translateX(+9%);
+    }
+	
+	
+		@media screen and (max-width: 600px) {
+  .resgame {
+       font-size:20px;
+	   font-family:"Times New Roman";
+       margin-top: 10px;
+	   
+	
+}	
+	
+		}	
+	
+	
+	
+	
+	
+    .carousel-caption .offer{
+       margin-top: 20px;
+       color: #fff;
+       font-size: 17px;
+       margin-left: 10px;
+	   width:100%;
+	   transform: translateX(-10%);
+    }
+    .carousel-caption .sbi img{
+       margin-top: 2px;
+       max-width: 250px;
+       margin-left: 50px;
+    }
+    .carousel-caption .sale{
+      margin-top: 7px;
+      color: #fff;
+   font-size: 17px;
+   font-weight: 400;
+   margin-left: 50px;
+	   width:320px;
+	   left:15%;
+	   transform: translateY(-20%);
+
+    }
+    .carousel-caption .flip img{
+       margin-top: 0px;
+       margin-left: 36px;
+    }
+    .carousel-caption .slider-btn button{
+      border: 1px solid transparent;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 25px;
+      line-height: 50px;
+      padding: 0 25px;
+      height: 50px;
+      text-decoration: none;
+      border-color: #FFFFFF;
+    background-color: #eb150a;
+    color: #FFFFFF;
+    margin-right: 315px;
+    margin-top: 20px;
+    }
+    .carousel-caption .a img{
+       margin-top: 100px;
+      width:260px;
+    }
+    .carousel-caption .b{
+       font-size: 30px;
+       margin-top: 5px;
+       margin-right: 113px;
+       font-weight: lighter;
+    }
+    .carousel-caption .c span img{
+      display: inline;
+    vertical-align: sub;
+    width: 88px;
+    }
+    .carousel-caption .c {
+       margin-right: 80px;
+       margin-top: 19px;
+    }
+    .carousel-caption .d button{
+      border: 1px solid transparent;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 25px;
+      line-height: 50px;
+      padding: 0 25px;
+      height: 50px;
+      text-decoration: none;
+      border-color: #FFFFFF;
+      background-color: #eb150a;
+      color: #FFFFFF;
+      margin-right: 340px;
+      margin-top: 20px;
+    }
+    .carousel-caption .e img{
+      margin-top: 100px;
+     width:260px;
+   }
+
+    .carousel-caption .f{
+      font-size: 30px;
+      margin-top: 5px;
+      margin-right: 125px;
+      font-weight: lighter;
+    }
+    .carousel-caption .g{
+      margin-right: 80px;
+      margin-top: 19px;
+   }
+   .carousel-caption .h button{
+      border: 1px solid transparent;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 25px;
+      line-height: 50px;
+      padding: 0 25px;
+      height: 50px;
+      text-decoration: none;
+      border-color: #FFFFFF;
+      background-color: #eb150a;
+      color: #FFFFFF;
+      margin-right: 300px;
+      margin-top: 20px;
+    }
+	
+	@media screen and (max-width: 900px) {
+  #carobutton {
+   border: 1px solid transparent;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 100;
+      border-radius: 25px;
+      line-height: 50px;
+      padding: 0 18px;
+      height: 50px;
+	  width: 180px;
+      text-decoration: none;
+      border-color: #FFFFFF;
+      background-color: #eb150a;
+      color: #FFFFFF;
+      margin-top: 20px;
+	  margin-right: 50px; margin-left: 50px;
+  }
+}
+	
+    .carousel-control .right{
+         margin-left: 2px;   
+    }
+    .carousel-control .left{
+      margin-right: 2px;
+      
+ }
+    

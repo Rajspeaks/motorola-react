@@ -1,0 +1,67 @@
+
+.outer{
+    background-color: #001428;
+    color: white;
+    
+}
+
+.outer li{
+    list-style-type: none;
+}
+
+.outer innerrow1{
+    margin-top: 100px;
+}
+
+.outer .innerrow2 ul{
+    padding-inline-start: 0px;
+    margin: 0px;
+    /* font-family: Gotham A,Gotham B,ruble; */
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	
+#dropdownMenuButton{
+    color:white;
+	font-size:25px;
+	font-weight:bold;
+	font-family:'Times New Roman';
+}
+
+.dropdown-menu{
+	background-color: #001428;
+	list-style-type: none;
+	width:100%;
+}
+
+.dropdown-item{
+	color:white;
+	font-size:16px;
+    font-family:'Times New Roman';
+}
+
+#setarrow_motorola{margin-left:172px;}
+#setarrow_motorola_home{margin-left:109px;}
+#setarrow_support{margin-left:187px;}
+#setarrow_about{margin-left:207px;}
+
+hr{
+    background-color:white;
+	width:100%;	
+}
+
+
+} 
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}

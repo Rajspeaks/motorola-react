@@ -1,0 +1,168 @@
+import React from "react";
+//import Navbar from './navbar';
+//import Razr_header from './razr_header';
+//import Sitemap from './sitemap';
+//import Footer from './footer';
+import '../css/razr.css';
+
+  const Razr_family = () =>{
+    return(
+        <>
+		{/* <div>
+           <Navbar/>
+		   <Razr_header/>
+  </div> */}
+       <div className="container-fluid outer pt-5 pb-5">
+	      
+		  <div className="razr_family" id="content-desktop">
+		     
+		         <h2 class="razr_title">razr family </h2>
+				 
+				 
+				 	 	 
+			 <div class="row r1">
+              <div class="col-sm-5">
+                   <div class="card c1">
+                     <img class="card-img-top" src="https://motorolain.vtexassets.com/arquivos/ids/156259/odyssey-razr-5g-pdp-kv-render-1topuupn8.png?v=637371489510500000" alt="Card image cap" />
+                       <div class="card-body">
+                         <h2 class="card-title">razr 5g</h2>
+						 <br/>
+						     <h3 id="price"><span>&#8377;</span> 124,999 </h3>
+							 <br/>
+                           <p class="card-text">
+						     Legendary DNA meets the Latest Technology in an Ultra Premium Flip Design of the all new Motorola razr 5G.
+							 </p>
+							 
+							 <br/><br/>
+							 
+							 <p id="find_store"><a href="#"> Find Stores Near you </a></p>
+						
+							 
+					<a href="#"><button class="lm1">Learn More </button></a>
+                            
+                        </div>
+                    </div>
+				</div>
+
+
+                  <div class="col-sm-6">
+                     <div class="card c2">
+                     <img class="card-img-top" src="https://motorolain.vtexassets.com/arquivos/ids/155576/155395.png?v=637208184792070000" alt="Card image cap" />
+                       <div class="card-body">
+                         <h2 class="card-title">razr</h2>
+						 <br/>
+						    <h3 id="price"><span>&#8377;</span> 74,999* </h3>
+							<br/>
+                           <p class="card-text">
+						   <ul>
+						       <i class="fa-solid fa-circle-check"></i>&nbsp;
+							 Revolutionary 6.2"(15.74 cms) Foldable Display 
+						   </ul>
+						   <ul>
+						    <i class="fa-solid fa-circle-check"></i>&nbsp;
+                             Dual displays. Singular experience with Quick View Display 
+						   </ul>
+						      <ul>
+                              <i class="fa-solid fa-circle-check"></i>&nbsp; 
+                             Brilliant Dual Use Camera with Night Vision.
+						   </ul>
+						   
+						   </p>
+						   
+						   <br/>
+						   <p id="find_store"><a href="#"> Find Stores Near you </a></p>
+							
+							 <a href="#"><button class="lm2">Learn More </button></a>
+                           
+                        </div>
+                    </div>
+				   </div>
+		     
+            </div>
+			
+			</div>
+			
+			{/*-------------------------------------------MOBILE----------------------------------------------------*/}
+
+			
+			<div className="razr_family" id="content-mobile">
+			
+			  <h2 class="razr_title">razr family </h2>
+              
+                   <div class="card c-mobile">
+                       <div class="card-body">
+					    <img class="card-img-top" src="https://motorolain.vtexassets.com/arquivos/ids/156259/odyssey-razr-5g-pdp-kv-render-1topuupn8.png?v=637371489510500000" alt="Card image cap" />
+                         <h2 class="card-title">razr 5g</h2>
+						 <br/>
+						     <h3 id="price">Rs. 124,999 </h3>
+							 <br/>
+                           <p class="card-text">
+						     Legendary DNA meets the Latest Technology in an Ultra Premium Flip Design of the all new Motorola razr5G.
+							 </p>
+							 
+							 <br/><br/><br/>
+							 
+							 <p id="find_store"><a href="#"> Find Stores Near you </a></p>
+						
+					<p>		 
+					<a href="#"><button class="lm-mobile-1">Learn More </button></a>
+					
+					</p>
+					
+					<br/><br/><br/>
+					
+					<img class="card-img-top" src="https://motorolain.vtexassets.com/arquivos/ids/155576/155395.png?v=637208184792070000" alt="Card image cap" />
+                       
+                         <h2 class="card-title">razr</h2>
+						 <br/>
+						    <h3 id="price">Rs. 74,999* </h3>
+							<br/>
+                           <p class="card-text">
+						    <ul>
+						       <i class="fa-solid fa-circle-check"></i>&nbsp;
+							 Revolutionary 6.2"(15.74 cms) Foldable Display 
+						   </ul>
+						   <ul>
+						    <i class="fa-solid fa-circle-check"></i>&nbsp;
+                             Dual displays. Singular experience with Quick View Display 
+						   </ul>
+						      <ul>
+                              <i class="fa-solid fa-circle-check"></i>&nbsp; 
+                             Brilliant Dual Use Camera with Night Vision.
+						   </ul>
+						   
+						   </p>
+						   
+						   <br/>
+						   <p id="find_store"><a href="#"> Find Stores Near you </a></p>
+							<p>
+							 <a href="#"><button class="lm-mobile-2">Learn More </button></a>
+                           </p>
+                            
+                        </div>
+                    </div>
+				
+		   </div>
+		 
+		 {/*---------------------------------------------MOBILE END -----------------------------------------------*/}	
+		
+		
+		
+		</div>
+
+		  <hr></hr>
+		  
+		  {/* <div>
+           
+          
+           <Sitemap/>
+           <Footer/>
+		 
+  </div> */}
+		  
+		</>
+		       
+    )
+}
+
+export default Razr_family;

@@ -1,0 +1,172 @@
+#header{
+   margin-top:54px;
+    }
+
+.outer{background-color:#001428;color:white;}
+	
+.smart_family{
+	background_color:#001428;
+	color:white;
+	
+}
+	
+.smart_title{
+	font-size:30px;
+	text-align:center;
+	font-family:arial;
+}
+
+
+.home{margin-right:80%;margin-top:128px;}
+.home-mobile{margin-right:70%;margin-top:120px;}
+
+hr{
+    margin: 0px;
+    /* border: 1px; */
+    background-color: grey;
+}
+
+
+/* cards */
+
+.r1{
+	 margin-top: 30px;
+     margin-right:90px;	 
+	}
+
+.c1{
+	width: 370px;
+	height: 860px;
+	color:black;
+	text-align:left;
+	margin-left:81px;
+}
+
+
+.c2{
+	width: 370px;
+	height: 860px;
+	color:black;
+	text-align:left;
+	right:11.5%;
+	}
+
+	
+.c3{
+	width: 370px;
+	height: 860px;
+	color:black;
+	text-align:left;
+	right:23%;
+	}
+
+	
+.card-img-top{height:250px; width:250px;margin:auto;}
+
+
+#smart_title{
+	font-size:30px;
+	font-family:arial;
+    margin-left:5px;
+	color:black;
+     }
+
+.card-text{color:black; text-align:justify;}
+
+.smart_subtitle1{font-family:arial;}
+.smart_subtitle2{font-family:arial; font-size:21px; text-decoration:underline;}
+
+#find_store{font-weight:bold;font-size:18px;color:-webkit-link;cursor:pointer;margin:auto;}
+
+
+.lm1{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:280px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+    margin-left:28px;
+	margin-top:36px;
+	}
+	
+.lm2{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:280px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+    margin-left:28px;
+	margin-top:36px;
+	}
+	
+.lm3{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:280px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+    margin-left:28px;
+	margin-top:68px;
+	}	
+	
+.lm-mobile-1{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:300px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+    margin-left:auto;
+	margin-top:45px;
+	}
+	
+.lm-mobile-2{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:300px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+	margin-left:auto;
+	margin-top:45px;
+	}
+	
+.lm-mobile-3{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:300px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+	margin-left:auto;
+	margin-top:45px;
+	}	
+.c-mobile{margin-top:30px;}
+
+/* --------------------------mobile version starts here:------------------------- */
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+	
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
