@@ -14,9 +14,9 @@ import Navbar from './navbar';
 //import Smart_product from './smart';
 
 
-//import Mototab from './mototab';
+import Mototab from './mototab';
 
-import Motogame from './motogame';
+//import Motogame from './motogame';
 
 import Sitemap from './sitemap';
 import Footer from './footer';
@@ -41,10 +41,10 @@ const Main = () =>{
            <Acc_family/> */}
 		   
 		   
-		   {/* <Mototab/> */}
+		  <Mototab/>
 		   
 		   
-		   <Motogame/>
+		   //<Motogame/>
 		   
 		   
 		   
