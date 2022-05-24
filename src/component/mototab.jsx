@@ -593,7 +593,7 @@ import '../css/mototab.css';
 	</div>	 
 		 
 		 
-		 <hr/>
+		<hr> <hr/>
 		 
 		
 		</>
