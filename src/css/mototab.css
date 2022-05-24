@@ -9,7 +9,7 @@
 #p2{font-size:18px;margin:auto;text-align:center;}
 
 
-.last-header{background-color:black;color:white;text-align:left;line-weight:50px;height:100%;}
+.last-header{font-size:14px; background-color:black;color:white;text-align:left;line-weight:50px;height:100%;}
 
 #lastheader{mrgin-left:20px;}
 
@@ -41,7 +41,7 @@
  #sleek-para{max-width:430px;font-size:18px;line-weight:30px;}
  #best-para{max-width:500px;font-size:18px;line-weight:30px;margin-left:45px;text-align:justify;}
 
- 
+ #featurefont{font-size:21px;line-weight:100px;}
  
  #know-more{
 	 background-color: #ff554d;
@@ -55,6 +55,16 @@
 	 border:0;
 	 
  }	 
+ 
+ /* .e{padding:20px 70px;} */
+ 
+ .f{height:200px;width:270px;margin:auto;margin-bottom:300px;}
+ 
+ .h{padding:70px 10px;margin:auto;}
+  
+  .g{padding:10px 5px;}
+  
+  
   
 #motogtab .pheader {
     font-size: 55px;
@@ -95,14 +105,15 @@
 
   #motogtab .spec__item {
     border-top: 4px solid rgba(255, 255, 255, 0.5);
-    width: 290px;
+    width: 300px;
     margin: 25px;
+	font-size:21px;
   }
 
   #motogtab .spec__item h5 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 21px;
+    font-size: 23px;
   }
 
    #motogtab .embed-container {
@@ -110,7 +121,7 @@
     position: relative;
   }
 
-   #motogtab .embed-container iframe,
+  /*  #motogtab .embed-container iframe,
   {
     position: absolute;
     top: 0;
@@ -118,7 +129,7 @@
     width: 100%;
     height: 100%;
   } 
-
+ */
 
 hr{
     margin: 0px;
@@ -131,11 +142,24 @@ hr{
 /* --------------------------mobile version starts here:------------------------- */
 
 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
 @media screen and (max-width: 768px) {
 	
 	#player1-mobile {background:none;width:100%; height:1000px;margin-top:-600px;}
 	#player2-mobile {background:none;width:100%; height:1000px;margin-top:-660px;}
 	#massive-mobile {margin-top:-360px;}
 	#powerful-mobile {margin-top:-380px;}
+	
+.mobile-best{padding:18px; text-align:left;margin:auto;font-size:46px;}
+ 
+
+ #mobile-best-para{padding:30px 20px;font-size:18px;line-weight:30px;margin:auto;}
+	
+	
+	
+	#content-desktop {display: none;}
+    #content-mobile {display: block;}
 
 }
