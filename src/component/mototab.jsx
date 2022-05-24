@@ -285,11 +285,11 @@ import '../css/mototab.css';
 		 
 		 <div class="col-12">
 		 
-		  <h3 class="tc mh4">
+		  <h3 class="tc mh1">
         MORE FEATURES <br />
         YOU'LL LOVE
          </h3>
-		 <br/>
+		
 		 </div>
 		 </div>
 		 
@@ -360,21 +360,20 @@ import '../css/mototab.css';
 		 
 		 </div>
 		
-		 
-		 <div class="container">
+		
+		
+		
 		
 		 
-  <div class="row g">
-  <div class="col-12">
-  
-  <h3 class="tc mh4">VIEW ALL SPECIFICATIONS</h3>
-  
-  </div>
+     <div class="container">
+		 
+       <div class="row">
+         <h3 class="tc mh4 spec-title">VIEW ALL SPECIFICATIONS</h3>
   </div>
   
   <div class="row">
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 spec-item-mobile">
 	
 	<div class="spec__item">
           <h5>Processor</h5>
@@ -386,7 +385,7 @@ import '../css/mototab.css';
 
 	</div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 spec-item-mobile">
 	
 	<div class="spec__item">
           <h5>Operating System</h5>
@@ -396,7 +395,7 @@ import '../css/mototab.css';
 
     </div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 spec-item-mobile">
 	
 	 <div class="spec__item">
           <h5>Display</h5>
@@ -410,9 +409,9 @@ import '../css/mototab.css';
 
   </div>
 
-  <div class="row g">
+  <div class="row">
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 spec-item-mobile">
 	
 	<div class="spec__item">
           <h5>Memory</h5>
@@ -422,7 +421,7 @@ import '../css/mototab.css';
 
     </div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 spec-item-mobile">
 	
 	 <div class="spec__item">
           <h5>Battery</h5>
@@ -435,7 +434,7 @@ import '../css/mototab.css';
 
     </div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 spec-item-mobile">
 	
 	<div class="spec__item">
           <h5>Audio</h5>
@@ -448,7 +447,7 @@ import '../css/mototab.css';
   
  <div class="row g">
 
-    <div class="col-sm-4">
+    <div class="col-sm-4 spec-item-mobile">
 	 <div class="spec__item">
           <h5>Mic</h5>
           <p>Dual Microphones + Smart Voice by DSP (Mid Field)</p>
@@ -458,7 +457,7 @@ import '../css/mototab.css';
 
     <div class="col-sm-4">
 	
-	 <div class="spec__item">
+	 <div class="spec__item"  id="spec-item-mobile">
           <h5>Camera</h5>
           <p>
             Rear : 13 MP auto-focus with flashlight <br />
@@ -470,7 +469,7 @@ import '../css/mototab.css';
 
     <div class="col-sm-4">
 	
-	 <div class="spec__item">
+	 <div class="spec__item" id="spec-item-mobile">
           <h5>Dimensions</h5>
           <p>10.17” x 6.4” x 0.29” (inches) </p>
         </div>
@@ -479,10 +478,10 @@ import '../css/mototab.css';
 
   </div>
 
-  <div class="row g">
+  <div class="row">
 
     <div class="col-sm-4">
-	 <div class="spec__item">
+	 <div class="spec__item"  id="spec-item-mobile">
           <h5>Dimensions</h5>
           <p>10.17” x 6.4” x 0.29” (inches)</p>
         </div>
@@ -492,7 +491,7 @@ import '../css/mototab.css';
 
     <div class="col-sm-4">
 	
-	  <div class="spec__item">
+	  <div class="spec__item"  id="spec-item-mobile">
           <h5>Bands Supported</h5>
           <p>
             GSM :B2/B3/B5/B8 WCDMA : B1/B2/B5(B6/B19)/B8 FDD LTE :
@@ -505,7 +504,7 @@ import '../css/mototab.css';
 
     <div class="col-sm-4">
 	
-	 <div class="spec__item">
+	 <div class="spec__item"  id="spec-item-mobile">
           <h5>Weight</h5>
           <p>490g / 1.1 lb</p>
      </div>
@@ -514,7 +513,7 @@ import '../css/mototab.css';
 	
     <div class="col-sm-4">
 	
-	 <div class="spec__item">
+	 <div class="spec__item"  id="spec-item-mobile">
           <h5>Connectivity</h5>
           <p>
             WiFi 802.11 a/b/g/n/ac, 2.4GHz & 5GHz dual band. <br />
@@ -526,7 +525,7 @@ import '../css/mototab.css';
 
     <div class="col-sm-4">
 	
-	<div class="spec__item">
+	<div class="spec__item"  id="spec-item-mobile">
           <h5>Buttons/Ports</h5>
           <p>
             Volume Up/Down Buttons, Power Button, 1 x USB Type-C 2.0 for data
@@ -540,7 +539,7 @@ import '../css/mototab.css';
 
     <div class="col-sm-4">
 	
-	<div class="spec__item">
+	<div class="spec__item"  id="spec-item-mobile">
           <h5>Color</h5>
           <p>Cyber Teal</p>
     </div>
@@ -593,7 +592,7 @@ import '../css/mototab.css';
 	</div>	 
 		 
 		 
-		<hr/>
+		 <hr/>
 		 
 		
 		</>
