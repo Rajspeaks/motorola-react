@@ -60,9 +60,8 @@
  
  .f{height:200px;width:270px;margin:auto;margin-bottom:300px;}
  
- .h{padding:70px 10px;margin:auto;}
+ .h{padding:63px;margin:auto;}
   
-  .g{padding:10px 5px;}
   
   
   
@@ -102,6 +101,8 @@
     margin-top: -36%;
     padding: 20px;
   }
+
+#motogtab .spec-title{margin:auto;}
 
   #motogtab .spec__item {
     border-top: 4px solid rgba(255, 255, 255, 0.5);
@@ -152,12 +153,11 @@ hr{
 	#massive-mobile {margin-top:-360px;}
 	#powerful-mobile {margin-top:-380px;}
 	
-.mobile-best{padding:18px; text-align:left;margin:auto;font-size:46px;}
- 
-
- #mobile-best-para{padding:30px 20px;font-size:18px;line-weight:30px;margin:auto;}
+    .mobile-best{padding:18px; text-align:left;margin:auto;font-size:46px;}
+    #mobile-best-para{padding:30px 20px;font-size:18px;line-weight:30px;margin:auto;}
 	
-	
+	.spec-title{margin:auto; font-size:41px;}
+	#spec-item-mobile{margin:auto;}
 	
 	#content-desktop {display: none;}
     #content-mobile {display: block;}
