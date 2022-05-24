@@ -278,6 +278,8 @@ import '../css/mototab.css';
     </div>
 	 
 </div>
+{/* ----------------------------------------------------------------------------------------------------- */}
+
 
 <br/><br/><br/>
 		 
@@ -285,7 +287,7 @@ import '../css/mototab.css';
 		 
 		 <div class="col-12">
 		 
-		  <h3 class="tc mh1">
+		  <h3 class="tc mh4">
         MORE FEATURES <br />
         YOU'LL LOVE
          </h3>
@@ -306,7 +308,7 @@ import '../css/mototab.css';
               Don't let the thought of protecting your device from spills &
               splashes worry you anymore.
             </p>
-		  
+		  <br/>
 		 
 		 </div>
 		 
@@ -322,7 +324,7 @@ import '../css/mototab.css';
               Make learning fun for your kids with access to apps, games, 100+
               free books & more.
             </p>
-		  
+		  <br/>
 		 
 		 </div>
 		 
@@ -338,7 +340,7 @@ import '../css/mototab.css';
               Find enough room for all your entertainment with 64/128 GB of storage,
               expandable to 1 TB^ with a microSD card.
             </p>
-		  
+		  <br/>
 		 
 		 </div>
 		 
@@ -354,14 +356,11 @@ import '../css/mototab.css';
               Get maximum protection against the harmful digital blue light and
               enjoy a stress-free viewing experience.
             </p>
-		  
+		  <br/>
 		 
 		 </div>
 		 
 		 </div>
-		
-		
-		
 		
 		
 		 
