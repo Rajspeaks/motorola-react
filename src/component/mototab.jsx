@@ -114,8 +114,7 @@ import '../css/mototab.css';
      <div class="row embed-container" id="header2">
         <iframe class="player1" id="player1-mobile"
           src="https://player.vimeo.com/video/665611295?h=17ad691f03&autoplay=1&loop=1&autopause=0&muted=1&texttrack=en"
-          frameborder="0"
-          allowfullscreen="allowfullscreen"
+          
         ></iframe>
       </div>
 	
@@ -180,6 +179,7 @@ import '../css/mototab.css';
           & Premium <br />
           Metal Design
         </h3>
+		<br/><br/>
         <p id="sleek-para">
           Feel the elegance of the sleek yet strong aluminum alloy body,
           enhanced by an iconic dual-tone finish all-around.
@@ -233,7 +233,7 @@ import '../css/mototab.css';
 	</div>	 
 		 <br/><br/><br/>
 		 
-<div class="row">
+<div class="row" id="content-desktop">
 		<div class="col-sm-6">
       <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section9.png?v=3"
         alt="Display of Moto Tab G70" class="img w-100 w-50-ns"/>
@@ -253,6 +253,32 @@ import '../css/mototab.css';
 	 
 </div>
 
+
+
+ {/* -------------------------------------MOBILE RESPONSIVE PART--------------------------------- */}
+		 
+		 
+		 <div class="row" id="content-mobile"> 
+		
+		<div class="col-sm-6">
+        <h3 class="mobile-best">
+          BEST-IN-CLASS <br />
+          CAMERA SYSTEM
+        </h3>
+        <p id="mobile-best-para">
+          Capture breathtaking landscapes with a 13 MP primary sensor or make
+          video calls with an 8 MP front camera, the quality is bound to amaze
+          you.
+        </p>
+      </div>
+	  <br/><br/>
+	  <div class="col-sm-6">
+      <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section9.png?v=3"
+        alt="Display of Moto Tab G70" height='280px' width='320px'/>
+    </div>
+	 
+</div>
+
 <br/><br/><br/>
 		 
 		 <div class="row">
@@ -265,11 +291,14 @@ import '../css/mototab.css';
          </h3>
 		 <br/>
 		 </div>
+		 </div>
 		 
-		 <div class="col-sm-3 h">
+		 <div class="row h">
+		 
+		 <div class="col-sm-3 f">
 		  <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-1.png?v=3"
-            alt="Display of Moto Tab G70" height='282px' width='270px'
+            alt="Display of Moto Tab G70" height='270px' width='250px'
           /><br/><br/><br/>
 		  <h4>IP52 Water <br/>Repellent Design**</h4>
 		  <br/>
@@ -281,11 +310,11 @@ import '../css/mototab.css';
 		 
 		 </div>
 		 
-		 <div class="col-sm-3 h">
+		 <div class="col-sm-3 f">
 		 
 		 <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-2.png?v=3"
-            alt="Display of Moto Tab G70" height='282px' width='270px'
+            alt="Display of Moto Tab G70" height='270px' width='250px'
           /><br/><br/><br/>
 		  <h4>Google Kids Space</h4>
 		  <br/>
@@ -297,11 +326,11 @@ import '../css/mototab.css';
 		 
 		 </div>
 		 
-		 <div class="col-sm-3 h">
+		 <div class="col-sm-3 f">
 		 
 		 <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-3.png?v=3"
-            alt="Display of Moto Tab G70"  height='282px' width='270px'
+            alt="Display of Moto Tab G70" height='270px' width='250px'
           /><br/><br/><br/>
 		  <h4>64/128 GB Storage</h4>
 		  <br/>
@@ -313,11 +342,11 @@ import '../css/mototab.css';
 		 
 		 </div>
 		 
-		 <div class="col-sm-3 h">
+		 <div class="col-sm-3 f">
 		 
 		 <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-4.png?v=3"
-            alt="Display of Moto Tab G70"  height='282px' width='270px'
+            alt="Display of Moto Tab G70" height='270px' width='250px'
           /><br/><br/><br/>
 		  <h4>TUV Certified Eye Protection</h4>
 		  <br/>
@@ -335,12 +364,15 @@ import '../css/mototab.css';
 		 <div class="container">
 		
 		 
-  <div class="row">
+  <div class="row g">
   <div class="col-12">
   
-  <h3 class="w-100 tc mh4">VIEW ALL SPECIFICATIONS</h3>
+  <h3 class="tc mh4">VIEW ALL SPECIFICATIONS</h3>
   
   </div>
+  </div>
+  
+  <div class="row">
 
     <div class="col-sm-4">
 	
@@ -378,7 +410,7 @@ import '../css/mototab.css';
 
   </div>
 
-  <div class="row">
+  <div class="row g">
 
     <div class="col-sm-4">
 	
@@ -414,7 +446,7 @@ import '../css/mototab.css';
 
   </div>
   
- <div class="row">
+ <div class="row g">
 
     <div class="col-sm-4">
 	 <div class="spec__item">
@@ -447,7 +479,7 @@ import '../css/mototab.css';
 
   </div>
 
-  <div class="row ">
+  <div class="row g">
 
     <div class="col-sm-4">
 	 <div class="spec__item">
