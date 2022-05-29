@@ -1,115 +1,126 @@
 import React from "react";
+import Navbar from './navbar';
+import Sitemap from './sitemap';
+import Footer from './footer';
 import '../css/mototab.css';
 
     const Mototab = () =>{
     return(
         <>
+
+        <div>
+
+            <Navbar/>
+
+
+        </div>
+
        <div className="container-fluid" id="motogtab">
-		  
-		  <div className="row" id="header">
-		  
-		  <img  src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section1.png?v=3" height="auto" width="100%" alt='....'/>
-		  
-		 </div>
-		 
-		 
-		 
-		<div class="mw6 center tc price">
-		  
+      
+      <div className="row" id="header">
+      
+      <img  src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section1.png?v=3" height="auto" width="100%" alt='....'/>
+      
+     </div>
+     
+     
+     
+    <div class="mw6 center tc price">
+      
         <h2>
             Available on
           <a href="https://www.flipkart.com/moto-tab-g70-22-store?param=3&pageUID=1642403994420" target="_blank" rel="noopener noreferrer">
             &nbsp;<img class="flip" alt="" src="https://motorolain.vtexassets.com/arquivos/lockup-flipkart.svg"/></a>
         
-		</h2>
+    </h2>
         <br/>
-		<a target="_blank" href="https://www.flipkart.com/moto-g70-lte-4-gb-ram-64-rom-11-inch-wi-fi-4g-tablet-modernist-teal/p/itmce2e58ddcfc16"
+    <a target="_blank" href="https://www.flipkart.com/moto-g70-lte-4-gb-ram-64-rom-11-inch-wi-fi-4g-tablet-modernist-teal/p/itmce2e58ddcfc16"
           rel="noopener noreferrer"><button id="know-more">Know More</button></a>
       
-	  </div>
-	  
-	  
-	  
-	   <div class="tc center mh4">
+    </div>
+    
+    
+    
+     <div class="tc center mh4">
         <h3 class="pheader">Brilliant 11” 2K Display</h3>
-		
+    
         <p class="center">
           Enjoy an unparalleled viewing experience with an excellent
           screen-to-display ratio & narrow bezels that offer a perfect
           edge-to-edge view.
         </p>
       
-	  </div>
-		  
-	<br/>
-	
-	<div className="row" id="header2">
-		  
-		  <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section2.png?v=3" height="auto" width="100%" alt='....'/>
-		  
-	</div>
-		  
-		  <br/>
-		  
-		  
-		  
-		  
+    </div>
+      
+  <br/>
+  
+  <div className="row" id="header2">
+      
+      <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section2.png?v=3" height="auto" width="100%" alt='....'/>
+      
+  </div>
+      
+      <br/>
+      
+      
+      
+      
      <div class="container-fluid">
-	      <div class="row">
+        <div class="row">
         <div class="col-sm-4">
           <h4>
             2K <br />
             Display
           </h4>
-		  <br/>
-		<div class="col-sm-12">
+      <br/>
+    <div class="col-sm-12">
           <p id="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  Entertainment high resolution</p>
-		  </div>
+      Entertainment high resolution</p>
+      </div>
         </div>
         <div class="col-sm-4">
           <h4>
             HD Content <br />
             Certification
           </h4><br/>
-		   <div class="col-sm-12">
+       <div class="col-sm-12">
           <p id="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  for Amazon Prime Video & Netflix</p>
+      for Amazon Prime Video & Netflix</p>
         </div>
-		</div>
+    </div>
        <div class="col-sm-4">
           <h4>
             400 nits <br />
             Brightness
           </h4><br/>
-		   <div class="col-sm-12">
+       <div class="col-sm-12">
           <p id="p2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  Clear even in bright light</p>
-		  </div>
-        </div>
-		
+      Clear even in bright light</p>
       </div>
-	  </div>
-	  
-	  
-	  <br/><br/><br/><br/><br/>
-		  
-		  
-		  
+        </div>
+    
+      </div>
+    </div>
+    
+    
+    <br/><br/><br/><br/><br/>
+      
+      
+      
      <div class="tc mh">
         <h3>
           Immersive Dolby Atmos® <br />
           WITH Quad speakers<sup>1</sup>
         </h3>
-		<br/>
-	</div>
-		
-	<div class="tc mh center">
+    <br/>
+  </div>
+    
+  <div class="tc mh center">
         <p class="center">
           Experience a truly immersive high-quality sound that flows all around
           you and tickles your senses.
         </p>
-		  </div>
+      </div>
 
      <div class="row embed-container" id="header2">
         <iframe class="player1" id="player1-mobile"
@@ -117,24 +128,24 @@ import '../css/mototab.css';
           
         ></iframe>
       </div>
-	
-	
-	
+  
+  
+  
 <div class="container-fluid" id="powerful-mobile">
-	  <div class="tc center mh4">
+    <div class="tc center mh4">
         <h3>
          Powerful MediaTek™
          Helio G90T processor
         </h3>
-		<br/>
-	</div>
-	<div class="tc center mh4">
+    <br/>
+  </div>
+  <div class="tc center mh4">
         <p class="center">
           Stream movies, play games, and do a lot more without losing the momentum. Experience unmatched performance of an industry-leading processor and multitask like a pro.
         </p>
      </div>
-	</div> 
-	
+  </div> 
+  
       <div class="row embed-container" id="header2">
         <iframe class="player2" id="player2-mobile"
           src="https://player.vimeo.com/video/665611232?h=2e4065561b&autoplay=1&loop=1&autopause=0&muted=1&texttrack=en"
@@ -142,104 +153,104 @@ import '../css/mototab.css';
           allowfullscreen="allowfullscreen"
         ></iframe>
       </div>
-	  
-	  
-	  <div class="container-fluid" id="massive-mobile">
+    
+    
+    <div class="container-fluid" id="massive-mobile">
       <div class="tc center mh4">
         <h3>
           Massive Battery <br />
           + 20W Rapid Charging
         </h3>
-		<br/>
-		</div>
-		  <div class="tc center mh4">
+    <br/>
+    </div>
+      <div class="tc center mh4">
         <p class="center">
           Get the power to go uninterrupted for up to 15 hours*, be it
           entertainment or work, and get back in action in no time with rapid
           charging.
         </p>
       </div>
-	  </div>
-	  
-	 <div className="row" id="header2">
-		  
-		  <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section5.png?v=3" height="auto" width="100%" alt='....'/>
-		  
-	</div>
-		  
-		  <br/>
-		 
-		 
-		 
-		 
-  <div class="row" class="sleek">
-	  <div class="col-sm-6">
+    </div>
+    
+   <div className="row" id="header2">
+      
+      <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section5.png?v=3" height="auto" width="100%" alt='....'/>
+      
+  </div>
+      
+      <br/>
+     
+     
+     
+     
+  <div class="row" id="sleek">
+    <div class="col-sm-6">
         <h3>
           Sleek <br />
           & Premium <br />
           Metal Design
         </h3>
-		<br/><br/>
+    <br/><br/>
         <p id="sleek-para">
           Feel the elegance of the sleek yet strong aluminum alloy body,
           enhanced by an iconic dual-tone finish all-around.
         </p>
       </div>
-	  <div class="col-sm-6">
+    <div class="col-sm-6">
       <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section6.png?v=3"
         alt="Display of Moto Tab G70" class="img w-100 w-50-ns"/>
     </div>
 </div>
     
-      <div class="tc mh4">
-	  <br/><br/>
+      <div class="tc center mh4">
+    <br/><br/>
         <h3>
           Dedicated Google <br />
           Entertainment Space
         </h3>
-		</div>
-		<br/>
-		 <div class="tc center mh4">
+    </div>
+    <br/>
+     <div class="tc center mh4">
         <p class="center">
           Access your favorite movies, games, etc., all in one place, and say
           goodbye to the hassle of switching between apps.
         </p>
       </div>
       
-		 <div className="row" id="header2">
-		  
-		  <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section7.png?v=3" height="auto" width="100%" alt='....'/>
-		  
-	</div>	 
-		 
-		 <div class="tc mh4">
+     <div className="row" id="header2">
+      
+      <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section7.png?v=3" height="auto" width="100%" alt='....'/>
+      
+  </div>   
+     
+     <div class="tc mh4">
         <h3>
           Pure Android™ 11 <br />
           experience
         </h3>
-		</div>
-		<br/>
-		<div class="tc center mh4">
+    </div>
+    <br/>
+    <div class="tc center mh4">
         <p class="center">
           Enjoy a clean & simple UI that makes your device intuitive, secure and
           personal.
         </p>
       </div>
-		 
-		  <div className="row" id="header2">
-		  
-		  <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section8.png?v=3" height="auto" width="100%" alt='....'/>
-		  
-	</div>	 
-		 <br/><br/><br/>
-		 
+     
+      <div className="row" id="header2">
+      
+      <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section8.png?v=3" height="auto" width="100%" alt='....'/>
+      
+  </div>   
+     <br/><br/><br/>
+     
 <div class="row" id="content-desktop">
-		<div class="col-sm-6">
+    <div class="col-sm-6">
       <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section9.png?v=3"
         alt="Display of Moto Tab G70" class="img w-100 w-50-ns"/>
     </div>
-	
-	  <div class="col-sm-6">
+  
+    <div class="col-sm-6">
         <h3 class="best">
           BEST-IN-CLASS <br />
           CAMERA SYSTEM
@@ -250,17 +261,17 @@ import '../css/mototab.css';
           you.
         </p>
       </div>
-	 
+   
 </div>
 
 
 
  {/* -------------------------------------MOBILE RESPONSIVE PART--------------------------------- */}
-		 
-		 
-		 <div class="row" id="content-mobile"> 
-		
-		<div class="col-sm-6">
+     
+     
+     <div class="row" id="content-mobile"> 
+    
+    <div class="col-sm-6">
         <h3 class="mobile-best">
           BEST-IN-CLASS <br />
           CAMERA SYSTEM
@@ -271,101 +282,101 @@ import '../css/mototab.css';
           you.
         </p>
       </div>
-	  <br/><br/>
-	  <div class="col-sm-6">
+    <br/><br/>
+    <div class="col-sm-6">
       <img src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section9.png?v=3"
         alt="Display of Moto Tab G70" height='280px' width='320px'/>
     </div>
-	 
+   
 </div>
 {/* ----------------------------------------------------------------------------------------------------- */}
 
 
 <br/><br/><br/>
-		 
-		 <div class="row">
-		 
-		 <div class="col-12">
-		 
-		  <h3 class="tc mh4">
+     
+     <div class="row">
+     
+     <div class="col-12">
+     
+      <h3 class="tc mh4">
         MORE FEATURES <br />
         YOU'LL LOVE
          </h3>
-		
-		 </div>
-		 </div>
-		 
-		 <div class="row h">
-		 
-		 <div class="col-sm-3 f">
-		  <img
+    
+     </div>
+     </div>
+     
+     <div class="row h">
+     
+     <div class="col-sm-3 f">
+      <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-1.png?v=3"
             alt="Display of Moto Tab G70" height='270px' width='250px'
           /><br/><br/><br/>
-		  <h4>IP52 Water <br/>Repellent Design**</h4>
-		  <br/>
+      <h4>IP52 Water <br/>Repellent Design**</h4>
+      <br/>
             <p id="featurefont">
               Don't let the thought of protecting your device from spills &
               splashes worry you anymore.
             </p>
-		  <br/>
-		 
-		 </div>
-		 
-		 <div class="col-sm-3 f">
-		 
-		 <img
+      <br/>
+     
+     </div>
+     
+     <div class="col-sm-3 f">
+     
+     <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-2.png?v=3"
             alt="Display of Moto Tab G70" height='270px' width='250px'
           /><br/><br/><br/>
-		  <h4>Google Kids Space</h4>
-		  <br/>
+      <h4>Google Kids Space</h4>
+      <br/>
             <p id="featurefont">
               Make learning fun for your kids with access to apps, games, 100+
               free books & more.
             </p>
-		  <br/>
-		 
-		 </div>
-		 
-		 <div class="col-sm-3 f">
-		 
-		 <img
+      <br/>
+     
+     </div>
+     
+     <div class="col-sm-3 f">
+     
+     <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-3.png?v=3"
             alt="Display of Moto Tab G70" height='270px' width='250px'
           /><br/><br/><br/>
-		  <h4>64/128 GB Storage</h4>
-		  <br/>
+      <h4>64/128 GB Storage</h4>
+      <br/>
             <p id="featurefont">
               Find enough room for all your entertainment with 64/128 GB of storage,
               expandable to 1 TB^ with a microSD card.
             </p>
-		  <br/>
-		 
-		 </div>
-		 
-		 <div class="col-sm-3 f">
-		 
-		 <img
+      <br/>
+     
+     </div>
+     
+     <div class="col-sm-3 f">
+     
+     <img
             src="http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-section10-4.png?v=3"
             alt="Display of Moto Tab G70" height='270px' width='250px'
           /><br/><br/><br/>
-		  <h4>TUV Certified Eye Protection</h4>
-		  <br/>
+      <h4>TUV Certified Eye Protection</h4>
+      <br/>
             <p id="featurefont">
               Get maximum protection against the harmful digital blue light and
               enjoy a stress-free viewing experience.
             </p>
-		  <br/>
-		 
-		 </div>
-		 
-		 </div>
-		
-		
-		 
+      <br/>
+     
+     </div>
+     
+     </div>
+    
+    
+     
      <div class="container">
-		 
+     
        <div class="row">
          <h3 class="tc mh4 spec-title">VIEW ALL SPECIFICATIONS</h3>
   </div>
@@ -373,8 +384,8 @@ import '../css/mototab.css';
   <div class="row">
 
     <div class="col-sm-4 spec-item-mobile">
-	
-	<div class="spec__item">
+  
+  <div class="spec__item">
           <h5>Processor</h5>
           <p>
             MediaTek® Helio G90T Tab Octa-Core Processor: 2 x A76 2.05 GHz + 6 x
@@ -382,11 +393,11 @@ import '../css/mototab.css';
           </p>
 </div>
 
-	</div>
+  </div>
 
     <div class="col-sm-4 spec-item-mobile">
-	
-	<div class="spec__item">
+  
+  <div class="spec__item">
           <h5>Operating System</h5>
           <p>Android™ 11 with easy access to the Google apps you use most</p>
         </div>
@@ -395,8 +406,8 @@ import '../css/mototab.css';
     </div>
 
     <div class="col-sm-4 spec-item-mobile">
-	
-	 <div class="spec__item">
+  
+   <div class="spec__item">
           <h5>Display</h5>
           <p>
             11” IPS LCD 2K (2000 x 1200), 10-point Multitouch, up to 400nits,
@@ -411,8 +422,8 @@ import '../css/mototab.css';
   <div class="row">
 
     <div class="col-sm-4 spec-item-mobile">
-	
-	<div class="spec__item">
+  
+  <div class="spec__item">
           <h5>Memory</h5>
           <p>4 GB + 64 GB / 6 GB + 128 GB</p>
 
@@ -421,8 +432,8 @@ import '../css/mototab.css';
     </div>
 
     <div class="col-sm-4 spec-item-mobile">
-	
-	 <div class="spec__item">
+  
+   <div class="spec__item">
           <h5>Battery</h5>
           <p>
             7700 mAh <br />
@@ -434,8 +445,8 @@ import '../css/mototab.css';
     </div>
 
     <div class="col-sm-4 spec-item-mobile">
-	
-	<div class="spec__item">
+  
+  <div class="spec__item">
           <h5>Audio</h5>
           <p>Quad Speakers optimized with Dolby Atmos</p>
         </div>
@@ -447,7 +458,7 @@ import '../css/mototab.css';
  <div class="row g">
 
     <div class="col-sm-4 spec-item-mobile">
-	 <div class="spec__item">
+   <div class="spec__item">
           <h5>Mic</h5>
           <p>Dual Microphones + Smart Voice by DSP (Mid Field)</p>
         </div>
@@ -455,8 +466,8 @@ import '../css/mototab.css';
     </div>
 
     <div class="col-sm-4">
-	
-	 <div class="spec__item"  id="spec-item-mobile">
+  
+   <div class="spec__item"  id="spec-item-mobile">
           <h5>Camera</h5>
           <p>
             Rear : 13 MP auto-focus with flashlight <br />
@@ -467,8 +478,8 @@ import '../css/mototab.css';
     </div>
 
     <div class="col-sm-4">
-	
-	 <div class="spec__item" id="spec-item-mobile">
+  
+   <div class="spec__item" id="spec-item-mobile">
           <h5>Dimensions</h5>
           <p>10.17” x 6.4” x 0.29” (inches) </p>
         </div>
@@ -480,17 +491,17 @@ import '../css/mototab.css';
   <div class="row">
 
     <div class="col-sm-4">
-	 <div class="spec__item"  id="spec-item-mobile">
+   <div class="spec__item"  id="spec-item-mobile">
           <h5>Dimensions</h5>
           <p>10.17” x 6.4” x 0.29” (inches)</p>
         </div>
-	
+  
 
     </div>
 
     <div class="col-sm-4">
-	
-	  <div class="spec__item"  id="spec-item-mobile">
+  
+    <div class="spec__item"  id="spec-item-mobile">
           <h5>Bands Supported</h5>
           <p>
             GSM :B2/B3/B5/B8 WCDMA : B1/B2/B5(B6/B19)/B8 FDD LTE :
@@ -502,17 +513,17 @@ import '../css/mototab.css';
     </div>
 
     <div class="col-sm-4">
-	
-	 <div class="spec__item"  id="spec-item-mobile">
+  
+   <div class="spec__item"  id="spec-item-mobile">
           <h5>Weight</h5>
           <p>490g / 1.1 lb</p>
      </div>
 
     </div>
-	
+  
     <div class="col-sm-4">
-	
-	 <div class="spec__item"  id="spec-item-mobile">
+  
+   <div class="spec__item"  id="spec-item-mobile">
           <h5>Connectivity</h5>
           <p>
             WiFi 802.11 a/b/g/n/ac, 2.4GHz & 5GHz dual band. <br />
@@ -523,8 +534,8 @@ import '../css/mototab.css';
     </div>
 
     <div class="col-sm-4">
-	
-	<div class="spec__item"  id="spec-item-mobile">
+  
+  <div class="spec__item"  id="spec-item-mobile">
           <h5>Buttons/Ports</h5>
           <p>
             Volume Up/Down Buttons, Power Button, 1 x USB Type-C 2.0 for data
@@ -532,13 +543,13 @@ import '../css/mototab.css';
             keyboard connection
           </p>
         </div>
-	
+  
 
     </div>
 
     <div class="col-sm-4">
-	
-	<div class="spec__item"  id="spec-item-mobile">
+  
+  <div class="spec__item"  id="spec-item-mobile">
           <h5>Color</h5>
           <p>Cyber Teal</p>
     </div>
@@ -548,15 +559,15 @@ import '../css/mototab.css';
 </div>
 
 <br/><br/><br/><br/><br/>
-		 
-		 
-	</div>	 
+     
+     
+  </div>   
 
-		 
+     
    <div class="container-fluid last-header">
-		 
-		 <br/><br/><br/>
-		 
+     
+     <br/><br/><br/>
+     
       AMAZON is a trademark of Amazon Technologies, Inc.
       <br />
       TÜV is a registered trademark of the TÜV Rheinland Group.
@@ -586,20 +597,27 @@ import '../css/mototab.css';
         from Dolby Laboratories. Confidential unpublished works. Copyright ©
         2012-2021 Dolby Laboratories. All rights reserved.
       <br /><br/>
-	  
-	  <br/><br/><br/>
-	</div>	 
-		 
-		 
-		 <hr/>
-		 
-		
-		</>
-		       
+    
+    <br/><br/><br/>
+  </div>   
+     
+     
+     <hr/>
+     
+
+    <div>
+
+     <Sitemap/>
+     <Footer/>
+
+
+
+    </div>
+
+    
+    </>
+           
     )
 }
 
 export default Mototab;
-		
-		
-	   

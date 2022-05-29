@@ -1,17 +1,27 @@
 import React from "react";
-//import Navbar from './navbar';
-//import Razr_header from './razr_header';
-//import Sitemap from './sitemap';
-//import Footer from './footer';
+import Navbar from './navbar';
+import Sitemap from './sitemap';
+import Footer from './footer';
 import '../css/razr.css';
 
   const Razr_family = () =>{
     return(
         <>
-		{/* <div>
+		<div>
            <Navbar/>
-		   <Razr_header/>
-  </div> */}
+		   
+  </div>
+  
+   <div className="container-fluid outer">
+	      
+		  <div className="row">
+		  
+		  <img id="header" src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/8b545658-0425-402c-8bb0-9e43145dd3f3___490bcf2932df7de6a72fdde7a59679c4.jpg" height="100%" width="100%" alt='....'/>
+		  
+		  </div>
+		 
+		  </div>
+  
        <div className="container-fluid outer pt-5 pb-5">
 	      
 		  <div className="razr_family" id="content-desktop">
@@ -22,12 +32,12 @@ import '../css/razr.css';
 				 	 	 
 			 <div class="row r1">
               <div class="col-sm-5">
-                   <div class="card c1">
+                   <div class="card razr-c1">
                      <img class="card-img-top" src="https://motorolain.vtexassets.com/arquivos/ids/156259/odyssey-razr-5g-pdp-kv-render-1topuupn8.png?v=637371489510500000" alt="Card image cap" />
                        <div class="card-body">
                          <h2 class="card-title">razr 5g</h2>
-						 <br/>
-						     <h3 id="price"><span>&#8377;</span> 124,999 </h3>
+						 <br/><br/><br/>
+						     <h3 id="razr-price"><span>&#8377;</span> 124,999 </h3>
 							 <br/>
                            <p class="card-text">
 						     Legendary DNA meets the Latest Technology in an Ultra Premium Flip Design of the all new Motorola razr 5G.
@@ -35,10 +45,10 @@ import '../css/razr.css';
 							 
 							 <br/><br/>
 							 
-							 <p id="find_store"><a href="#"> Find Stores Near you </a></p>
+							 <p id="razr-find-store"><a href="#"> Find Stores Near you </a></p>
 						
 							 
-					<a href="#"><button class="lm1">Learn More </button></a>
+					<a href="#"><button class="razr-lm1">Learn More </button></a>
                             
                         </div>
                     </div>
@@ -46,12 +56,12 @@ import '../css/razr.css';
 
 
                   <div class="col-sm-6">
-                     <div class="card c2">
+                     <div class="card razr-c2">
                      <img class="card-img-top" src="https://motorolain.vtexassets.com/arquivos/ids/155576/155395.png?v=637208184792070000" alt="Card image cap" />
                        <div class="card-body">
                          <h2 class="card-title">razr</h2>
-						 <br/>
-						    <h3 id="price"><span>&#8377;</span> 74,999* </h3>
+						 <br/><br/><br/>
+						    <h3 id="razr-price"><span>&#8377;</span> 74,999* </h3>
 							<br/>
                            <p class="card-text">
 						   <ul>
@@ -70,9 +80,9 @@ import '../css/razr.css';
 						   </p>
 						   
 						   <br/>
-						   <p id="find_store"><a href="#"> Find Stores Near you </a></p>
+						   <p id="razr-find-store"><a href="#"> Find Stores Near you </a></p>
 							
-							 <a href="#"><button class="lm2">Learn More </button></a>
+							 <a href="#"><button class="razr-lm2">Learn More </button></a>
                            
                         </div>
                     </div>
@@ -89,12 +99,12 @@ import '../css/razr.css';
 			
 			  <h2 class="razr_title">razr family </h2>
               
-                   <div class="card c-mobile">
+                   <div class="card razr-c-mobile">
                        <div class="card-body">
 					    <img class="card-img-top" src="https://motorolain.vtexassets.com/arquivos/ids/156259/odyssey-razr-5g-pdp-kv-render-1topuupn8.png?v=637371489510500000" alt="Card image cap" />
                          <h2 class="card-title">razr 5g</h2>
 						 <br/>
-						     <h3 id="price">Rs. 124,999 </h3>
+						     <h3 id="razr-price">Rs. 124,999 </h3>
 							 <br/>
                            <p class="card-text">
 						     Legendary DNA meets the Latest Technology in an Ultra Premium Flip Design of the all new Motorola razr5G.
@@ -102,10 +112,10 @@ import '../css/razr.css';
 							 
 							 <br/><br/><br/>
 							 
-							 <p id="find_store"><a href="#"> Find Stores Near you </a></p>
+							 <p id="razr-find-store"><a href="#"> Find Stores Near you </a></p>
 						
 					<p>		 
-					<a href="#"><button class="lm-mobile-1">Learn More </button></a>
+					<a href="#"><button class="razr-lm-mobile-1">Learn More </button></a>
 					
 					</p>
 					
@@ -115,7 +125,7 @@ import '../css/razr.css';
                        
                          <h2 class="card-title">razr</h2>
 						 <br/>
-						    <h3 id="price">Rs. 74,999* </h3>
+						    <h3 id="razr-price">Rs. 74,999* </h3>
 							<br/>
                            <p class="card-text">
 						    <ul>
@@ -134,9 +144,9 @@ import '../css/razr.css';
 						   </p>
 						   
 						   <br/>
-						   <p id="find_store"><a href="#"> Find Stores Near you </a></p>
+						   <p id="razr-find-store"><a href="#"> Find Stores Near you </a></p>
 							<p>
-							 <a href="#"><button class="lm-mobile-2">Learn More </button></a>
+							 <a href="#"><button class="razr-lm-mobile-2">Learn More </button></a>
                            </p>
                             
                         </div>
@@ -152,13 +162,13 @@ import '../css/razr.css';
 
 		  <hr></hr>
 		  
-		  {/* <div>
+		  <div>
            
           
            <Sitemap/>
            <Footer/>
 		 
-  </div> */}
+  </div>
 		  
 		</>
 		       

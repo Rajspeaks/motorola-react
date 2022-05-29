@@ -6,7 +6,7 @@ const Sitemap = () =>{
         <>
             <div className="container-fluid outer pt-5 pb-5">
            
-	
+    
    
    <div className="container" id="content-mobile">
     <div className="dropdown">
@@ -27,8 +27,8 @@ const Sitemap = () =>{
  </div>
 
     <hr></hr>
-	
-	
+    
+    
    <div class="dropdown">
  <h2 class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
     motorola home <i class="fa-solid fa-circle-chevron-down" id="setarrow_motorola_home"></i></h2>
@@ -93,27 +93,27 @@ const Sitemap = () =>{
                      <div className="container" id="content-desktop">
                         <div className="row innerrow1 pb-4">
                               <div className="col-md-3 col-sm-12">
-                                <h4>motorola</h4>
-						      </div>
-						
-						
+                                <h2>motorola</h2>
+                              </div>
+                        
+                        
                               <div className="col-md-3 col-sm-12">
-                               <h4>motorola home</h4>
+                               <h2>motorola home</h2>
                               </div>
                               
-							  <div className="col-md-3 col-sm-12">
-                              <h4>support</h4>
+                              <div className="col-md-3 col-sm-12">
+                              <h2>support</h2>
                               </div>
                    
-             				  <div className="col-md-3 col-sm-12">
-                             <h4>about</h4>
+                              <div className="col-md-3 col-sm-12">
+                             <h2>about</h2>
                               </div>
                     
                         </div>
-				
-				
+                
+                
             <div className="row innerrow2">
-			
+            
                 <div className="col-md-3 col-sm-12">
                     <li>
                                 <ul>razr family</ul>
@@ -142,12 +142,12 @@ const Sitemap = () =>{
                                 <ul>moto g4 plus</ul>
                     </li>
                 </div>
-				
+                
              </div>
                 
          </div>
     
-			</div>
+            </div>
       
         </>
     )
