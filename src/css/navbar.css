@@ -12,20 +12,21 @@
 }
 .fixed-top{
     background-color: #001428;
-    /* border-top: 1px solid hsla(0,0%,100%,.3);
-    border-bottom: 1px solid hsla(0,0%,100%,.3); */
+    border-top: 1px solid hsla(0,0%,100%,.3);
+    border-bottom: 1px solid hsla(0,0%,100%,.3);
     height: 55px;
-	width: auto;
     position: fixed;
     top: 0px;
+    left: 0;
+    width: 100%;
     z-index: 1200;
     display:none;
 }
 .mobile-text{
-    background-color: #001428;
+    background-color:#001428;
     padding-top: 50px;
+   
     width:100%;
-	color:white;
 }
 .mobile-text ul{
     list-style: none;
@@ -47,11 +48,17 @@
     display: flex;
     line-height: 50px;
     color: #666;
-    font-size: 20px;
+    font-size: 21px;
     text-decoration: none;
     justify-content: space-between;
     width: 100%;
 }
+
+
+
+
+
+
 .dropdown-menu .dropdown-item img{
     max-height: 70px;
     margin-right: 20px;
@@ -59,7 +66,6 @@
 }
 .dropdown-menu .dropdown-item span{
     font-size: 20px;
-	
 }
 .fixed-top{
     position: fixed;
@@ -91,6 +97,7 @@
 .nav_area{
     display: block;
     flex: 1;
+    width: 100%;
    
 }
 .nav_area ul{
@@ -108,28 +115,28 @@
 .nav_area ul li .nav{
     color: #fff;
     display: inline-block;
-    font-size: 14px;
-    padding: 0 35px;
+    font-size: 16px;
+    padding: 0 30px;
     text-decoration: none;
     line-height: 47px;
     white-space: nowrap;
-    font-weight: 350;
+    font-weight: 360;
     
 }
 .icon_area .icon .nav_icon{
     color: #fff;
     text-decoration: none;
-	margin-left:100px;
     
 }
 .icon_area .icon{
-    padding-top: 35px;
-    padding-left: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
    
 }
 .search-dropdown{
     padding-left: 200px;
     padding-top: 3px;
+    height: 90px;
 }
 .search-dropdown .dropdown{
     position: relative;
@@ -140,6 +147,7 @@
 }
 .fa{
     color:white;
+    margin-top: 10px;
 }
 .search-dropdown .dropdown-menu{
     width: 400px;
@@ -174,7 +182,7 @@ form {
     margin-bottom: 0;
 }
 .search-box input{
-    min-height: 38px;
+    min-height: 54px;
     border-radius: 2px;
     border-color: #dfe3e8;
     box-shadow: none;
@@ -212,7 +220,7 @@ form {
 .nav_icon{
     color: #001428;
     font-size: 15px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     
 }
 
@@ -220,24 +228,24 @@ form {
  /* for dropdown desktop view */
 .nave .nav_area .chobi{
     display: flex;
+  
     padding: 0;
     list-style: none;
     margin: 0 auto;
-    height: 250px;
-    width: 1360px;
-	background-color:white;
+    height: 270px;
+    width: 1400px;
 }
 .nave .nav_area .chobi .cho{
-    padding-left: 150px;
-    padding-top: 25px;
+    padding-left: 180px;
+    padding-top: 30px;
 }
 .nave .nav_area .chobi .ch{
-    padding-top: 25px;
-    padding-left: 50px;
+    padding-top: 30px;
+    padding-left: 60px;
 }
 .nave .nav_area .chobi .c{
-    padding-top: 25px;
-    padding-left: 50px;
+    padding-top: 30px;
+    padding-left: 60px;
 }
 .nave .nav_area .chobi figcaption{
     border-top: 1px solid rgba(0,0,0,.2);

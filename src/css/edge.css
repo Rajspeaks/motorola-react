@@ -1,0 +1,274 @@
+#header{
+    margin-top:54px;
+     }
+     #header1{
+         display: none;
+     }
+     #content-mobile{
+         display: none;
+     }
+     @media (max-width: 480px)
+ {
+     #header1{
+    display: block;
+    }
+    #header{
+        display: none;
+    }
+    #content-mobile{
+        display: block;
+    }
+    .r2{
+        margin-top: 128px;
+        margin-right:90px;	
+       }
+   .mobile-c1{
+    width: 360px;
+    height: 780px;
+    color:black;
+    text-align:left;
+    margin-left:-7px;
+   }
+   .mobile-c2{
+    width: 360px;
+    height: 780px;
+    color:black;
+    text-align:left;
+    margin-left:-7px;
+    margin-top: 10px;
+   }
+   .mobile-c3{
+    width: 360px;
+    height: 780px;
+    color:black;
+    text-align:left;
+    margin-left:-7px;
+    margin-top: 10px;
+   }
+   
+}
+     .outer{
+        width: 100%!important;
+    max-width: 100%!important;
+    }
+     .edge_family{
+        background-color:#001428;
+        color:white;
+        
+    }
+    .edge_title{
+        
+        
+        font-size: 28px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 52px;
+        font-family: Montserrat,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    }
+    .subhead h1{
+        font-size: 18px;
+        padding: 30px 0 0;
+    line-height: 24px;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    text-align: center;
+   
+    color: #fff;
+    font-weight: 300;
+    }
+    .bt button{
+        background: #cf4039;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    border-color: #cf4039;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    }
+    .bt button a{
+        width: 300px;
+    height: 48px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    padding-top: 12px;
+    transition: .5s ease-out;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    } 
+    .featuresContent {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .featureTitle {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        padding-bottom: 35px;
+        padding-top: 4%;
+    }
+    .loopContent {
+        border: 1px solid #263748;
+        width: 287px;
+        height: 90px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .mainfeatures {
+        background-color: #001428;
+        color: #fff;
+        text-align: center;
+        position: relative;
+    }
+    .content-mainfeatures{
+        display: inline-block;
+        
+    }
+    .featureImg {
+        justify-content: flex-end;
+        display: flex;
+        float: left;
+        padding-top: 10px;
+    }
+    .featuteTitle {
+        display: flex;
+        text-align: left;
+        padding-top: 14%;
+        float: right;
+        width: 98px;
+    }
+    .r1{
+        margin-top: 128px;
+        margin-right:90px;	
+       }
+       .c1{
+        width: 360px;
+        height: 780px;
+        color:black;
+        text-align:left;
+        margin-left:50px;
+        margin-bottom: 20px;
+    }
+    .card-img-top
+    {height:250px; width:250px;margin:auto;
+    }
+    .moto-product-summary-tag {
+        background-color: #165c7d;
+        color: #fff;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 11px 11px 11px 40px;
+        position: absolute;
+        left: 0;
+        top:205px;
+    }
+    .card-body {
+        padding: 25px 24px 0;
+        color: #000;
+    }
+    .card-title {
+        font-size: 28px;
+    font-weight:350;
+    width:100%;
+    
+    
+    }
+  .card-body h2{
+    font-size: 28px;
+    font-weight:350;
+    width:100%;
+  }
+  .card-body h3{
+      font-weight: 320;
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+       
+    
+  }
+  .pv3 {
+    padding-top: -10px;
+    padding-bottom: 0.5rem;
+    display: inline;
+    vertical-align: sub;
+    width: 300px;
+}
+.sale .sal{
+    font-size: 20px;
+}
+.sale .sa img{
+    display: inline;
+    vertical-align: sub;
+    width: 96px;
+    padding-left: 8px;
+}
+
+  .btn{
+      padding-top:50px;
+    
+      
+  } 
+    .card-actions{
+        margin-top: 0px;
+        padding: 0 24px;
+    }
+    .card-actions a.blue-shelf-cta {
+        color: #fff;
+        background: #cf4039;
+        font-weight: 400;
+    }
+    .card-actions a {
+        border-radius: 25px;
+        display: inline-block;
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+        margin: 5px 0;
+        text-decoration: none;
+        width: 100%;
+    }
+.c2{
+        width: 360px;
+        height: 780px;
+        color:black;
+        text-align:left;
+        margin-left:50px;
+    
+}
+.c2 .card-actions{
+    
+    margin-top: 20px;
+    padding: 0 24px;
+    
+}
+.c3{
+    width: 360px;
+    height: 780px;
+    color:black;
+    text-align:left;
+    margin-left:50px;
+
+}
+.c3 .sale{
+    margin-top: 10px;
+}
+.c3 .retail{
+font-size: 20px;
+}
+.c3 .card-actions{
+    
+    margin-top: 20px;
+padding: 0 24px;
+
+}

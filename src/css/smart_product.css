@@ -1,22 +1,24 @@
 #header{
    margin-top:54px;
-   
     }
 
 .outer{background-color:#001428;color:white;}
 	
-.razr_family{
-	background_color:#001428;
+.smart_family{
+	background-color:#001428;
 	color:white;
 	
 }
 	
-.razr_title{
+.smart_title{
 	font-size:30px;
 	text-align:center;
 	font-family:arial;
 }
 
+
+.home{margin-right:80%;margin-top:128px;}
+.home-mobile{margin-right:70%;margin-top:120px;}
 
 hr{
     margin: 0px;
@@ -27,46 +29,57 @@ hr{
 
 /* cards */
 
-.r1{
-	 margin-top: 128px;
+.sp-r1{
+	 margin-top: 30px;
      margin-right:90px;	 
 	}
 
-.razr-c1{
-	width: 360px;
-	height: 780px;
+.sp-c1{
+	width: 370px;
+	height: 860px;
 	color:black;
 	text-align:left;
-	margin-left:90px;
+	margin-left:81px;
 }
 
 
-.razr-c2{
+.sp-c2{
 	width: 370px;
-	height: 780px;
+	height: 860px;
 	color:black;
 	text-align:left;
-	right: 8%;
+	right:11.5%;
 	}
+
+	
+.sp-c3{
+	width: 370px;
+	height: 860px;
+	color:black;
+	text-align:left;
+	right:23%;
+	}
+
 	
 .card-img-top{height:250px; width:250px;margin:auto;}
 
 
-#razr-price{
-	font-size:21px;
+#smart_title{
+	font-size:30px;
 	font-family:arial;
     margin-left:5px;
 	color:black;
      }
 
-.card-text{color:black; margin-right:50px;}
+.card-text{color:black; text-align:justify;}
 
-.card-title{margin-left:6px;color:black;font-size: 36px;}
+.smart_subtitle1{font-family:arial;}
+.smart_subtitle2{font-family:arial; font-size:21px; text-decoration:underline;}
 
-#razr-find-store{font-weight:bold;font-size:18px;color:-webkit-link;cursor:pointer;margin:auto;}
-/* #find_store_mobile{font-weight:bold;font-size:15px;color:-webkit-link;cursor:pointer; margin:auto;} */
+#sp-find-store{font-weight:bold;font-size:18px;color:-webkit-link;cursor:pointer;margin:auto;}
 
-.razr-lm1{
+
+.sp-lm1{
 	background-color:#F40505; 
 	color:white; 
 	font-size:20px; 
@@ -76,23 +89,36 @@ hr{
 	border-color:#F40505;
 	text-align:center;
     margin-left:28px;
-	margin-top:150px;
-	}
-
-.razr-lm2{
-	background-color:#F40505; 
-	color:white; 
-	font-size:20px; 
-	height:50px; 
-	width:280px; 
-	border-radius:50px; 
-	border-color:#F40505;
-	text-align:center;
-    margin-left:28px;
-	margin-top:57px;
+	margin-top:36px;
 	}
 	
-.razr-lm-mobile-1{
+.sp-lm2{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:280px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+   margin-left:28px;
+	margin-top:36px;
+	}
+	
+.sp-lm3{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:280px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+   margin-left:28px;
+	margin-top:92px;
+	}	
+	
+.sp-lm-mobile-1{
 	background-color:#F40505; 
 	color:white; 
 	font-size:20px; 
@@ -101,11 +127,24 @@ hr{
 	border-radius:50px; 
 	border-color:#F40505;
 	text-align:center;
-     margin:auto;
+   margin:auto;
 	margin-top:45px;
 	}
 	
-.razr-lm-mobile-2{
+.sp-lm-mobile-2{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:300px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+	margin: auto;
+	margin-top:45px;
+	}
+	
+.sp-lm-mobile-3{
 	background-color:#F40505; 
 	color:white; 
 	font-size:20px; 
@@ -116,15 +155,10 @@ hr{
 	text-align:center;
 	margin:auto;
 	margin-top:45px;
-	}
-	
-.razr-c-mobile{margin-top:100px;}
+	}	
+.sp-c-mobile{margin-top:30px;}
 
 /* --------------------------mobile version starts here:------------------------- */
-
-
-
-
 
 
 #content-desktop {display: block;}
@@ -136,8 +170,3 @@ hr{
 #content-mobile {display: block;}
 
 }
-
-
-/* @media screen and (max-width: px) {
-	
-	#find_store{margin-top:} */

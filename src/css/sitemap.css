@@ -1,4 +1,3 @@
-
 .outer{
     background-color: #001428;
     color: white;
@@ -9,13 +8,16 @@
     list-style-type: none;
 }
 
-.outer innerrow1{
-    margin-top: 100px;
+.outer .innerrow1{
+    margin-top: 45px;
+    text-align: left;
 }
 
 .outer .innerrow2 ul{
     padding-inline-start: 0px;
     margin: 0px;
+    font-size: 15px;
+    text-align: left;
     /* font-family: Gotham A,Gotham B,ruble; */
 }
 

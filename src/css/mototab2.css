@@ -1,0 +1,303 @@
+.super-bg{background-color: #001428;color: white;}
+
+
+.header1-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/fb4e1973-7253-4ac0-aa3c-3f2d5211d995___75c2786578a393a0c61a3d5f6a918ed0.png');
+    background-color: #001428;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 820px;
+    width: 100%;
+   /* margin-top: 30px;*/
+
+
+
+}
+
+.header2-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/c917871a-7c65-4f34-8e53-53b63c6c192c___20cf5685ea43d24d5bc623f73b280206.png');
+    background-color: #001428;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 820px;
+    width: 100%;
+    /*margin-top: 30px;*/
+
+
+
+}
+
+.header3-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/75a99196-302b-4b6b-bf40-6a86caec49fb___853d96bed9b88cc7a3fb6b04948f7b56.png');
+    background-color: #001428;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 820px;
+    width: 100%;
+   /* margin-top: 10px;*/
+
+}
+.header4-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/60709b71-437f-4d72-b682-934b70050998___af4d8d140e44629081b50e84a7321b6d.png');
+    background-color: #001428;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1400px;
+    width: 100%;
+   /* margin-top: 10px;*/
+
+}
+
+.header5-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/cca5c11e-4e14-43df-a505-60d542df7599___9655c2089e96d167d1c6e7f02acec296.png');
+    background-color: #001428;
+    background-size: 60% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 820px;
+    width: 100%;
+   /* margin-top: 10px;*/
+
+}
+
+.header6-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/ab19ca5a-9463-4908-910b-9ca7d3ba6df4___2a1968289766ff704b23e05bd5bc6793.png');
+    background-color: #001428;
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 820px;
+    width: 100%;
+   /* margin-top: 10px;*/
+
+}
+
+.header7-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/4dc07cac-a37c-4642-a491-a2ef3bea6060___24c5a5239b291bc4a7c2d6674cf8028e.png');
+    background-color: #001428;
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+   margin-top: 250px;
+
+}
+
+/*.header8-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/335b7955-0ef3-47ce-ab0b-8225b6a3e011___53d76563f047d89225bff2c9d0f276a7.jpg');
+    background-color: #001428;
+    background-size:cover;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+
+}*/
+
+
+.header9-bg{
+    background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/dde7ed2f-4b99-4281-aea6-f580fbc5e876___1500c667aba424e08c3bc93e330b13fa.jpg');
+    background-color: #001428;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    margin-top: 300px;
+
+}
+
+
+
+.header1-title{margin-top: 300px;font-family: arial;font-size:45px;letter-spacing: 2px;text-align: left;margin-left: 20px;}
+.header1-para{font-family: arial;font-size:25px;letter-spacing: 2px;line-height: 1.6;text-align: left;margin-left: 20px;}
+
+.flip{margin-left: 20px;}
+
+
+.header2-title{margin-top: 300px;font-family: arial;font-size:30px;letter-spacing: 2px;text-align: left;margin-left: 20px;}
+.header2-para{font-family: arial;font-size:21px;letter-spacing: 2px;line-height: 1.6;text-align: left;margin-left: 20px;}
+
+.header3-title{margin-top: 300px;font-family: arial;font-size:36px;font-weight: bold;letter-spacing: 2px;text-align: left;margin-left: 20px;}
+.header3-para{font-family: arial;font-size:15px;font-weight: bold;letter-spacing: 2px;text-align: left;margin-left: 20px;}
+
+.header4-title{font-family: arial;font-size:32px;letter-spacing: 4px;line-height: 1.2;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: 20px;text-align: center;}
+.header4-para{font-family: arial;font-size:21px;text-align: left;margin-left: 200px; margin-right: 200px;margin-top: 20px;text-align:center;}
+
+
+.header5-title{font-family: arial;font-size:32px;letter-spacing:1px;line-height: 1.2;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: 20px;text-align: center;}
+.header5-para{font-family: arial;font-size:21px;font-weight: bold;letter-spacing: 1.1;text-align: left;margin-left: 200px; margin-right: 200px;margin-top: 20px;text-align:center;}
+
+.header5-pic{margin-top: -100px;margin-bottom: 30px;}
+
+.header6-title{margin-top: 300px;font-family: arial;font-size:36px;letter-spacing: 2px;text-align: left;margin-left: 63px;}
+.header6-para{font-family: arial;font-size:21px;font-weight: bold;letter-spacing: 2px;line-height: 1.6;text-align: left;margin-left: 63px;}
+
+.header7-title{font-family: time new roman;font-size:37px;letter-spacing: 2px;line-height: 1;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: -120px;text-align: center;}
+.header7-para{font-family: arial;font-size:21px;text-align: left;margin-left: 200px;letter-spacing: 6px; margin-right: 200px;margin-top:0px;text-align:center;}
+
+.header8-title{font-family: times new roman;font-size:36px;letter-spacing: 0px;line-height: 1.2;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: 100px;text-align: center;}
+.header8-para{font-family: arial;font-size:25px;text-align: left; margin-left: 300px; margin-right: 300px;margin-top: 60px;text-align:center;}
+
+/*.header8-img{margin-top: 10px;}*/
+
+.header9-title{font-family: arial;font-size:32px;letter-spacing: 4px;line-height: 1.2;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: -200px;text-align: center;}
+.header9-para{font-family: times new roman;font-size:25px;text-align: left;margin-left: 200px; margin-right: 200px;margin-top: 100px;text-align:center;}
+
+
+
+/* --------------------------mobile version starts here:------------------------- */
+
+
+.super-bg-mobile{background-color: #001428;color: white;}
+
+
+.header1-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/fa571a7b-2ba3-4c44-ae95-14767540bfe8___0521d019003712444762f561bc8fca14.png');
+             background-size:cover;
+             object-fit: cover;
+             background-position: center;
+             height: 700px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+             margin-top: 45px;
+
+}
+.header2-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/c7823716-657f-480e-9528-1298ea8a1ed8___bd526e80753a9628f235fe849b4ea2c2.png');
+             background-size: cover;
+             height: 630px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+
+}
+.header3-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/f4d1cd0d-6075-43cc-aead-3db2ebe9eeda___a3923617ce6c4a2af71afc0e71c43fc5.png');
+             background-size: cover;
+             height: 500px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+
+}
+.header4-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/d8f7ec8d-eec6-4a4f-8ed5-1b419ab47538___39eba323e7c405f9834597b0c052ebde.png');
+             background-size: cover;
+             height: 500px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+
+}
+.header5-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/cca5c11e-4e14-43df-a505-60d542df7599___9655c2089e96d167d1c6e7f02acec296.png');
+             background-size: 90% 70%;
+             height: 300px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+             margin-top: 360px;
+
+}
+.header6-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/8ad91029-7f05-4f91-a360-e93202c098e4___39e0ebd27c5e1270b930dcc02e231fc2.png');
+             background-size: cover;
+             height: 900px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+             
+}
+.header7-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/8797068f-eceb-4b16-88ac-32cb9fc1fd44___9f90e243b8b6269a2989fe00f0b30a34.png');
+             background-size: cover;
+             height: 810px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+
+}
+.header8-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/335b7955-0ef3-47ce-ab0b-8225b6a3e011___53d76563f047d89225bff2c9d0f276a7.jpg');
+             background-size: 100% 60%;
+             height: 500px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+             margin-top: 280px;
+
+
+}
+.header9-bg-mb{
+             
+             background-image: url('https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/dde7ed2f-4b99-4281-aea6-f580fbc5e876___1500c667aba424e08c3bc93e330b13fa.jpg');
+             background-size: cover;
+             height: 100px;
+             width: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+             margin-bottom: 150px;
+             margin-top: 300px;
+
+}
+
+
+
+
+.hr-brk{background-color:#001428;}
+
+.header1-title-mb{margin-top: 500px;font-size: 21px;letter-spacing: 2px;font-family: sans-serif;text-align: center;}
+.header1-para-mb{font-family: sans-serif;font-size: 14px;letter-spacing: 1px;text-align: center;}
+.header1-subpara{font-size: 18px;font-family: sans-serif;letter-spacing: 2px;}
+
+
+.header2-title-mb{margin-top: 450px;font-size: 21px;letter-spacing: 2px;font-family: sans-serif;text-align: center;}
+.header2-para-mb{margin-top: -7px;font-size:17px; letter-spacing: 1px;text-align: center;}
+
+.header3-title-mb{margin-top: 10px;font-size: 21px;letter-spacing: 2px;font-family: sans-serif;text-align: center;}
+.header3-para-mb{margin-top: -200px;font-size:15px; letter-spacing: 1px;text-align: center;font-family: sans-serif;line-height: 100%;}
+
+.header4-title-mb{margin-top: 30px;font-size: 19px;letter-spacing: 2px;font-family: sans-serif;text-align: center;}
+.header4-para-mb{margin-top: -170px;font-size:18px; letter-spacing: 1px;text-align: center;font-family: sans-serif;}
+
+.header5-title-mb{margin-top: -300px;font-size: 30px;letter-spacing: 2px;font-family: sans-serif;text-align: center;font-weight: lighter}
+.header5-para-mb{margin-top: -230px;font-size:23px; letter-spacing: 1px;text-align: center;font-family: sans-serif;font-weight: bold;}
+
+
+/*------------------NO HEADER6------------*/
+
+.header7-title-mb{margin-top:30px;font-size: 25px;letter-spacing: 2px;font-family: times new roman;text-align: center;}
+.header7-para-mb{margin-top: -370px;font-size:18px; letter-spacing: 1px;text-align: center;font-family: sans-serif;}
+
+.header8-title-mb{margin-top:-200px;font-size: 36px;letter-spacing: 2px;font-family: times new roman;text-align: center;}
+.header8-para-mb{margin-top: -300px;font-size:21px; letter-spacing: 1px;text-align: center;font-family: sans-serif;}
+
+.header9-title-mb{margin-top:-300px;font-size: 36px;letter-spacing: 2px;font-family: sans-serif;text-align: center;}
+.header9-para-mb{margin-top: -200px;font-size:21px; letter-spacing: 1px;text-align: center;font-family: timmes new roman;}
+
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+    
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+
+}

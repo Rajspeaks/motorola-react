@@ -1,8 +1,8 @@
 #header{
-   margin-top:54px;
+   margin-top:56spx;
     }
-	
-#header2{margin-top:128px;}
+    
+#header2{margin-top:128px; width: 100%;}
 
 #header3{background:transparent;text-align:center;margin:auto;}
 
@@ -16,7 +16,7 @@
 #motogtab{
     background-color:#001428;
     color: #fff;
-    max-width:1366px;
+    max-width:100%;
     margin: 0 auto;
     z-index: 2;
     background-image: url("http://motorolain.vteximg.com.br/arquivos/moto-tab-g70-bg.png?v=3");
@@ -35,26 +35,26 @@
   
  .flip{display: inline; vertical-align: sub; width: 88px} 
  
- .sleek{text-align:left;}
+ #sleek{text-align:left;}
  .best{text-align:left;margin-left:45px;font-size:59px;}
  
- #sleek-para{max-width:430px;font-size:18px;line-weight:30px;}
- #best-para{max-width:500px;font-size:18px;line-weight:30px;margin-left:45px;text-align:justify;}
+ #sleek-para{max-width:430px;font-size:18px;}
+ #best-para{max-width:500px;font-size:18px;margin-left:45px;text-align:justify;}
 
  #featurefont{font-size:21px;line-weight:100px;}
  
  #know-more{
-	 background-color: #ff554d;
-	 border-radius:50px;
-	 height:40px;
-	 width:160px;
-	 color:white;
-	 font-size:17px;
-	 font-weight:30px;
-	 text-align:center;
-	 border:0;
-	 
- }	 
+     background-color: #ff554d;
+     border-radius:50px;
+     height:40px;
+     width:160px;
+     color:white;
+     font-size:17px;
+     font-weight:30px;
+     text-align:center;
+     border:0;
+     
+ }   
  
  /* .e{padding:20px 70px;} */
  
@@ -65,13 +65,13 @@
   
   
   
-#motogtab .pheader {
-    font-size: 55px;
+.pheader {
+    font-size: 56px;
     margin-bottom: 21px;
-	
+    
     font-weight: 300;
-	text-align:center;
-	
+    text-align:center;
+    
   }
   
   #pheader2{margin-top:-45px;}
@@ -79,8 +79,8 @@
   h3{
     font-size: 48px;
     font-weight: 300;
-	/* text-align:center; */
-	
+    /* text-align:center; */
+    
   }
   
   
@@ -93,8 +93,8 @@
     max-width: 500px;
     line-height: 24px;
     /* margin-bottom: 3rem; */
-	margin:auto;
-	text-align:center;
+    margin:auto;
+    text-align:center;
   }
 
   #motogtab .price {
@@ -108,7 +108,7 @@
     border-top: 4px solid rgba(255, 255, 255, 0.5);
     width: 300px;
     margin: 25px;
-	font-size:21px;
+    font-size:21px;
   }
 
   #motogtab .spec__item h5 {
@@ -147,19 +147,19 @@ hr{
 #content-mobile {display: none;}
 
 @media screen and (max-width: 768px) {
-	
-	#player1-mobile {background:none;width:100%; height:1000px;margin-top:-600px;}
-	#player2-mobile {background:none;width:100%; height:1000px;margin-top:-660px;}
-	#massive-mobile {margin-top:-360px;}
-	#powerful-mobile {margin-top:-380px;}
-	
+    
+    #player1-mobile {background:none;width:100%; height:1000px;margin-top:-600px;}
+    #player2-mobile {background:none;width:100%; height:1000px;margin-top:-660px;}
+    #massive-mobile {margin-top:-360px;}
+    #powerful-mobile {margin-top:-380px;}
+    
     .mobile-best{padding:18px; text-align:left;margin:auto;font-size:46px;}
     #mobile-best-para{padding:30px 20px;font-size:18px;line-weight:30px;margin:auto;}
-	
-	.spec-title{margin:auto; font-size:41px;}
-	#spec-item-mobile{margin:auto;}
-	
-	#content-desktop {display: none;}
+    
+    .spec-title{margin:auto; font-size:41px;}
+    #spec-item-mobile{margin:auto;}
+    
+    #content-desktop {display: none;}
     #content-mobile {display: block;}
 
 }
