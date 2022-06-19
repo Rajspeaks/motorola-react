@@ -1,4 +1,7 @@
-#header{
+.acc_outer{background-color:#001428;
+	color:white;}
+
+#acc-header{
    margin-top:54px;
     }
 	
@@ -12,7 +15,27 @@
 .acc_title{
 	font-size:30px;
 	text-align:center;
-	font-family:arial;
+   font-family: sans-serif;
+	letter-spacing: 1px;
+	font-weight: ligher;
+	margin-top: 30px;
+}
+
+.acc_sub_title{
+	font-size:20px;
+	text-align:center;
+   font-family: sans-serif;
+	letter-spacing: 2px;
+	font-weight: ligher;
+	margin-top: 30px;
+}
+
+.acc_next_title{
+
+	  font-zie: 27px;
+	  font-family: sans-serif;
+	  letter-spacing: 1px;
+	  margin-top:30px;
 }
 
 hr{
@@ -24,12 +47,12 @@ hr{
 
 /* cards */
 
-.r1{
-	 margin-top: 128px;
+.acc-r1{
+	 margin-top:30px;
      margin-right:90px;	 
 	}
 
-.c1{
+.acc-c1{
 	width: 360px;
 	height: 780px;
 	color:black;
@@ -38,23 +61,17 @@ hr{
 }
 
 
-.c2{
-	width: 370px;
-	height: 780px;
-	color:black;
-	text-align:left;
-	right: 8%;
-	}
 	
-.card-img-top{height:250px; width:250px;margin:auto;}
+.acc-card-img-top{height:250px; width:250px;margin:auto;}
 
 
-.card-text{color:black; margin-right:50px;}
+.acc-card-text{color:black; margin-right:50px;}
 
-.card-title{margin-left:6px;color:black;}
+.acc-card-title{margin-left:6px;color:black;font-weight: lighter;font-size: 28px;}
 
+.allacc{margin-right:80%;margin-top:128px;}
 
-.lm1{
+.acc-lm1{
 	background-color:#F40505; 
 	color:white; 
 	font-size:20px; 
@@ -64,20 +81,7 @@ hr{
 	border-color:#F40505;
 	text-align:center;
     margin-left:28px;
-	margin-top:150px;
-	}
-
-.lm2{
-	background-color:#F40505; 
-	color:white; 
-	font-size:20px; 
-	height:50px; 
-	width:280px; 
-	border-radius:50px; 
-	border-color:#F40505;
-	text-align:center;
-    margin-left:28px;
-	margin-top:57px;
+	margin-top:100px;
 	}
 
 
@@ -93,7 +97,7 @@ hr{
 
 @media screen and (max-width: 768px) {
 	
-.lm-mobile-1{
+.acc-lm-mobile-1{
 	background-color:#F40505; 
 	color:white; 
 	font-size:20px; 
@@ -105,20 +109,6 @@ hr{
      margin:auto;
 	margin-top:45px;
 	}
-	
-.lm-mobile-2{
-	background-color:#F40505; 
-	color:white; 
-	font-size:20px; 
-	height:50px; 
-	width:300px; 
-	border-radius:50px; 
-	border-color:#F40505;
-	text-align:center;
-	margin:auto;
-	margin-top:45px;
-	}
-	
 	
 #content-desktop {display: none;}
 #content-mobile {display: block;}

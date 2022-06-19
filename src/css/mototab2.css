@@ -7,9 +7,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 820px;
+    height: 800px;
     width: 100%;
-   /* margin-top: 30px;*/
+    margin-top: 30px;
 
 
 
@@ -21,7 +21,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 820px;
+    height: 800px;
     width: 100%;
     /*margin-top: 30px;*/
 
@@ -35,7 +35,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 820px;
+    height: 800px;
     width: 100%;
    /* margin-top: 10px;*/
 
@@ -46,7 +46,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1400px;
+    height: 1100px;
     width: 100%;
    /* margin-top: 10px;*/
 
@@ -58,7 +58,7 @@
     background-size: 60% 60%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 820px;
+    height: 800px;
     width: 100%;
    /* margin-top: 10px;*/
 
@@ -70,7 +70,7 @@
     background-size:  cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 820px;
+    height: 800px;
     width: 100%;
    /* margin-top: 10px;*/
 
@@ -82,9 +82,10 @@
     background-size:  cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1100px;
     width: 100%;
-   margin-top: 250px;
+   margin-top: 300px;
+
 
 }
 
@@ -126,7 +127,7 @@
 .header3-title{margin-top: 300px;font-family: arial;font-size:36px;font-weight: bold;letter-spacing: 2px;text-align: left;margin-left: 20px;}
 .header3-para{font-family: arial;font-size:15px;font-weight: bold;letter-spacing: 2px;text-align: left;margin-left: 20px;}
 
-.header4-title{font-family: arial;font-size:32px;letter-spacing: 4px;line-height: 1.2;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: 20px;text-align: center;}
+.header4-title{font-family: arial;font-size:32px;letter-spacing: 4px;line-height: 1.2;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: 30px;text-align: center;}
 .header4-para{font-family: arial;font-size:21px;text-align: left;margin-left: 200px; margin-right: 200px;margin-top: 20px;text-align:center;}
 
 
@@ -138,7 +139,9 @@
 .header6-title{margin-top: 300px;font-family: arial;font-size:36px;letter-spacing: 2px;text-align: left;margin-left: 63px;}
 .header6-para{font-family: arial;font-size:21px;font-weight: bold;letter-spacing: 2px;line-height: 1.6;text-align: left;margin-left: 63px;}
 
-.header7-title{font-family: time new roman;font-size:37px;letter-spacing: 2px;line-height: 1;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: -120px;text-align: center;}
+.header6-img{margin-right: 10px;}
+
+.header7-title{font-family: time new roman;font-size:37px;letter-spacing: 2px;line-height: 1;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: -180px;text-align: center;}
 .header7-para{font-family: arial;font-size:21px;text-align: left;margin-left: 200px;letter-spacing: 6px; margin-right: 200px;margin-top:0px;text-align:center;}
 
 .header8-title{font-family: times new roman;font-size:36px;letter-spacing: 0px;line-height: 1.2;text-align: left;margin-left: 200px;margin-right: 200px;margin-top: 100px;text-align: center;}

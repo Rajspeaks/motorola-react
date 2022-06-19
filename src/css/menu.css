@@ -2,11 +2,14 @@
     background-color: #001428; 
     font-weight: 300px;
     display: block;
+    color: white;
     /* margin-top: 5px;
     margin-bottom: 5px; */
     /* border-top: 0.1px solid white;
     border-bottom: 0.1px solid white; */
 }
+
+   .hellomoto{font-family: sans-serif;}
 
  .a2{
     margin-top: 400px;
@@ -31,7 +34,7 @@
     color: rgb(255, 255, 255);
     border: 1px solid rgb(207, 64, 57);
     background-color: rgb(207, 64, 57);
-    font-family: Gotham A,Gotham B,ruble;
+    font-family: sans-serif;
     font-size: 18px;
 }
 
@@ -41,7 +44,7 @@
 
 .listing1 .bt1{
    margin-bottom: 27px;
-   margin-top: 78px;
+   margin-top: 110px;
 }
 .listing1 .bt1 button {
     color: rgb(255, 255, 255);
@@ -51,13 +54,13 @@
     border-radius: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 90px;
-     padding-right: 90px;
+    padding-left: 70px;
+     padding-right: 70px;
     font-size: 15px;
 }
 .listing2 .bt2{
     margin-bottom: 90px;
-    margin-top: 68px;
+    margin-top: 70px;
  }
  .listing2 .bt2 button {
      color: rgb(255, 255, 255);
@@ -67,13 +70,13 @@
      border-radius: 30px;
      padding-top: 15px;
      padding-bottom: 15px;
-     padding-left: 90px;
-     padding-right: 90px;
+     padding-left: 70px;
+     padding-right: 70px;
      font-size: 15px;
  }
  .listing3 .bt3{
     margin-bottom: 27px;
-    margin-top: 86px;
+    margin-top: 120px;
  }
  .listing3 .bt3 button {
      color: rgb(255, 255, 255);
@@ -83,8 +86,8 @@
      border-radius: 30px;
      padding-top: 15px;
      padding-bottom: 15px;
-     padding-left: 90px;
-     padding-right: 90px;
+     padding-left: 70px;
+     padding-right: 70px;
      font-size: 15px;
  }
 .a6{
@@ -167,11 +170,77 @@ p{
 	padding: 5px;
   } */
 
-  
-  #content-desktop {display: block;}
+ /*----------------------------------------------------MOBILE VERSION---------------------------------------------*/ 
+#content-desktop {display: block;}
 #content-mobile {display: none;}
 
 @media screen and (max-width: 768px) {
+
+.mobile-menu-outer{background-color: #001428; color: white;}
+
+.hellomoto{font-family: sans-serif;color: white;}
+
+.card-body{color: rgb(255, 255, 255);font-size: 30px;}
+
+.fa{color: white;}
+
+.btn button{
+    color: white;
+    border: 10px solid rgb(207, 64, 57);
+    border-radius: 30px;
+    background-color: rgb(207, 64, 57);
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: -10px;
+    width: 300px;
+}
+
+.listing1 .bt1 button {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+     padding-right: 70px;
+    font-size: 15px;
+    width: 300px;
+}
+
+.listing2 .bt2 button {
+     color: rgb(255, 255, 255);
+     background-color: rgba(255, 255, 255, 0);
+     border: 1px solid rgb(255, 255, 255);
+     text-align: center;
+     border-radius: 30px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 70px;
+     padding-right: 70px;
+     font-size: 15px;
+     width: 300px;
+}
+
+.listing3 .bt3 button {
+     color: rgb(255, 255, 255);
+     background-color: rgba(255, 255, 255, 0);
+     border: 1px solid rgb(255, 255, 255);
+     text-align: center;
+     border-radius: 30px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 70px;
+     padding-right: 70px;
+     font-size: 15px;
+     width: 300px;
+ }
+
+ .icon-cog {
+  color: white;
+  opacity: 0.7;
+}
 
 #content-desktop {display: none;}
 #content-mobile {display: block;}

@@ -1,0 +1,26 @@
+.multi-editorial-card
+{
+    background-color: rgb(0, 20, 40);
+
+}
+
+.mec-header 
+{
+    color: rgb(255, 255, 255); 
+    text-align: center;
+}
+
+.mec-description
+{
+    text-align: center;
+}
+
+h5 
+{
+   color: rgb(255, 255, 255);
+}
+
+h6
+{
+    color: rgb(255, 255, 255);
+}

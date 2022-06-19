@@ -1,7 +1,7 @@
-#header{
+#g-header{
     margin-top:54px;
      }
-     #header1{
+     #g-header1{
          display: none;
      }
      #content-mobile{
@@ -9,10 +9,10 @@
      }
      @media (max-width: 480px)
  {
-     #header1{
+     #g-header1{
     display: block;
     }
-    #header{
+    #g-header{
         display: none;
     }
     #content-mobile{
@@ -47,16 +47,17 @@
    }
    
 }
-     .outer{
+    .g-outer{
+        background-color:#001428;
         width: 100%!important;
     max-width: 100%!important;
     }
-     .edge_family{
+     .g_family{
         background-color:#001428;
         color:white;
         
     }
-    .edge_title{
+    .g_title{
         
         
         font-size: 28px;
@@ -220,24 +221,25 @@
       
   } 
     .card-actions{
-        margin-top: 50px;
-    padding: 0 24px;
+        margin-top: -140px;
+        padding: 0 24px;
     }
-    .card-actions a.blue-shelf-cta {
+
+    .blue-shelf-cta {
         color: #fff;
         background: #cf4039;
         font-weight: 400;
-    }
-    .card-actions a {
         border-radius: 25px;
         display: inline-block;
         line-height: 50px;
         text-align: center;
         font-size: 16px;
         margin: 5px 0;
+        margin-top: 230px;
         text-decoration: none;
         width: 100%;
     }
+
 .c2{
         width: 360px;
         height: 780px;
@@ -248,7 +250,7 @@
 }
 .c2 .card-actions{
     
-        margin-top: 203px;
+    margin-top: 250px;
     padding: 0 24px;
     
 }
@@ -268,11 +270,7 @@ font-size: 20px;
 }
 .c3 .card-actions{
     
-    margin-top: 60px;
+margin-top: 240px;
 padding: 0 24px;
 
-}
-hr{
-    margin: 0px;
-    background-color: grey;
 }

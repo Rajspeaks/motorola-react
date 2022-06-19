@@ -1,13 +1,12 @@
-   
-    
-.carousel-caption desk{
+.slider-outer{background-color:#001428;}
+
+.carousel-caption{
    color: white;
-   margin-right:10px;
-  
-   max-width: auto;
-   left: 10px;
-   top: 1px;
- /*top: 50%; */
+   right: 40%;
+  margin-top: 54px;
+   max-width: 1200px;
+   /*left: 1px;*/
+   top: 2px;
  transform: translateY(15%);
  bottom: initial;
 
@@ -15,66 +14,19 @@
  height:100%;
  
     }
+
+.slider-carousal {
+    margin-top: 54px;
+    width: 100%;
+    height: auto ;
+  }
+
     .carousel-caption img{
        margin-right: 200px;
     }
   
- 
-
-    .carousel-caption .game{
-	   font-weight:100pt;
-	   font-size: 27px;
-	   font-family:"Times New Roman";
-	   line-height:50px;
-       margin-top: 10px;
-       margin-left:20px;
-	   transform: translateX(+9%);
-    }
-	
-	
-		@media screen and (max-width: 600px) {
-  .resgame {
-       font-size:20px;
-	   font-family:"Times New Roman";
-       margin-top: 10px;
-	   
-	
-}	
-	
-		}	
-	
-	
-	
-	
-	
-    .carousel-caption .offer{
-       margin-top: 20px;
-       color: #fff;
-       font-size: 17px;
-       margin-left: 10px;
-	   width:100%;
-	   transform: translateX(-10%);
-    }
-    .carousel-caption .sbi img{
-       margin-top: 2px;
-       max-width: 250px;
-       margin-left: 50px;
-    }
-    .carousel-caption .sale{
-      margin-top: 7px;
-      color: #fff;
-   font-size: 17px;
-   font-weight: 400;
-   margin-left: 50px;
-	   width:320px;
-	   left:15%;
-	   transform: translateY(-20%);
-
-    }
-    .carousel-caption .flip img{
-       margin-top: 0px;
-       margin-left: 36px;
-    }
+   
+    
     .carousel-caption .slider-btn button{
       border: 1px solid transparent;
       display: inline-block;
@@ -86,19 +38,32 @@
       height: 50px;
       text-decoration: none;
       border-color: #FFFFFF;
-    background-color: #eb150a;
-    color: #FFFFFF;
-    margin-right: 315px;
-    margin-top: 20px;
+      background-color: #eb150a;
+      color: #FFFFFF;
+      margin-right: 450px;
+      margin-top: 20px;
     }
     .carousel-caption .a img{
        margin-top: 100px;
       width:260px;
+      margin-right: 420px;
     }
     .carousel-caption .b{
        font-size: 30px;
        margin-top: 5px;
-       margin-right: 113px;
+       margin-right: 230px;
+       font-weight: lighter;
+    }
+    .carousel-caption .bp{
+       font-size: 30px;
+       margin-top: 5px;
+       margin-right: 236px;
+       font-weight: lighter;
+    }
+     .carousel-caption .bw{
+       font-size: 30px;
+       margin-top: 5px;
+       margin-right: 70px;
        font-weight: lighter;
     }
     .carousel-caption .c span img{
@@ -107,8 +72,53 @@
     width: 88px;
     }
     .carousel-caption .c {
-       margin-right: 80px;
+       margin-right: 180px;
        margin-top: 19px;
+       font-size: 20px;
+    }
+     .carousel-caption .au img{
+      margin-top: 30px;
+      width:260px;
+      margin-right: 420px;
+    }
+    .game-head{margin-right: 90px;font-size: 23px;font-weight: bolder;text-align: left;}
+    .game-text{margin-right: 90px;font-size: 23px;font-weight: bolder;text-align: left;}
+    .offer-text{margin-right: 90px;font-size: 15px;font-weight: lighter;text-align: left;}
+    .sbi-img{margin-right: 90px;text-align: left;}
+    .sale-text{margin-right: 100px;font-size: 21px;font-weight: lighter;text-align: left;}
+    .flip-img{margin-right: 90px;text-align: left;}
+
+     .carousel-caption .aw img{
+      margin-top: 100px;
+      width:260px;
+      margin-right: 500px;
+    }
+     .carousel-caption .cw span img{
+      display: inline;
+    vertical-align: sub;
+    width: 88px;
+    }
+    .carousel-caption .cw {
+       margin-right: 270px;
+       margin-top: 19px;
+       font-size: 20px;
+       color: white;
+    }
+     .carousel-caption .slider-btn-w button{
+      border: 1px solid transparent;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 25px;
+      line-height: 50px;
+      padding: 0 25px;
+      height: 50px;
+      text-decoration: none;
+      border-color: #FFFFFF;
+      background-color: #eb150a;
+      color: #FFFFFF;
+      margin-right: 450px;
+      margin-top: 20px;
     }
     .carousel-caption .d button{
       border: 1px solid transparent;
@@ -126,20 +136,22 @@
       margin-right: 340px;
       margin-top: 20px;
     }
-    .carousel-caption .e img{
-      margin-top: 100px;
+    .carousel-caption .ep img{
+     margin-top: 100px;
      width:260px;
+     margin-right: 410px;
    }
 
     .carousel-caption .f{
       font-size: 30px;
       margin-top: 5px;
-      margin-right: 125px;
+      margin-right: 340px;
       font-weight: lighter;
     }
     .carousel-caption .g{
       margin-right: 80px;
       margin-top: 19px;
+      font-size: 21px;
    }
    .carousel-caption .h button{
       border: 1px solid transparent;
@@ -154,35 +166,51 @@
       border-color: #FFFFFF;
       background-color: #eb150a;
       color: #FFFFFF;
-      margin-right: 300px;
+      margin-right: 315px;
       margin-top: 20px;
     }
-	
-	@media screen and (max-width: 900px) {
-  #carobutton {
-   border: 1px solid transparent;
-      display: inline-block;
-      font-size: 15px;
-      font-weight: 100;
-      border-radius: 25px;
-      line-height: 50px;
-      padding: 0 18px;
-      height: 50px;
-	  width: 180px;
-      text-decoration: none;
-      border-color: #FFFFFF;
-      background-color: #eb150a;
-      color: #FFFFFF;
-      margin-top: 20px;
-	  margin-right: 50px; margin-left: 50px;
-  }
-}
-	
-    .carousel-control .right{
-         margin-left: 2px;   
+    .carousel-control-prev-icon{
+         margin-right: 150px;   
     }
-    .carousel-control .left{
-      margin-right: 2px;
+    .carousel-control-next-icon{
+      margin-left: 150px;
       
  }
+
+ /* --------------------------mobile version starts here:------------------------- */
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+
+.mobile-slider{margin-top: 54px; max-bottom: 100px;opacity: 0.3;}
+
+.mobile-slider-header{font-size:20px;font-weight: bolder; color: white;}
+
+@media screen and (max-width: 768px) { 
+
+.carousel-inner img{height: 100%; width: 100%;}
+
+.carousel-caption{
+   color: white;
+   right: 1%;
+  margin-top: 100px;
+   left: 5px;
+   top: 2px;
+ transform: translateY(30%);
+ bottom: initial;
+ text-align: center;
+ 
+    }
+ .carousel-caption .a img{
+       margin-top: 100px;
+      width:100px;
+      margin-left: 100px;
+    }
+  
     
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+
+}

@@ -1,9 +1,9 @@
-#header{
+#razr-header{
    margin-top:54px;
    
     }
 
-.outer{background-color:#001428;color:white;}
+.razr-outer{background-color:#001428;color:white;}
 	
 .razr_family{
 	background_color:#001428;
@@ -67,52 +67,52 @@ hr{
 /* #find_store_mobile{font-weight:bold;font-size:15px;color:-webkit-link;cursor:pointer; margin:auto;} */
 
 .razr-lm1{
-	background-color:#F40505; 
+	background-color:#cf4039; 
 	color:white; 
-	font-size:20px; 
-	height:50px; 
+	font-size:17px; 
+	height:47px; 
 	width:280px; 
 	border-radius:50px; 
-	border-color:#F40505;
+	border-width: 0;
 	text-align:center;
     margin-left:28px;
 	margin-top:150px;
 	}
 
 .razr-lm2{
-	background-color:#F40505; 
+	background-color:#cf4039; 
 	color:white; 
-	font-size:20px; 
-	height:50px; 
+	font-size:17px; 
+	height:47px; 
 	width:280px; 
 	border-radius:50px; 
-	border-color:#F40505;
+	border-width: 0;
 	text-align:center;
     margin-left:28px;
 	margin-top:57px;
 	}
 	
 .razr-lm-mobile-1{
-	background-color:#F40505; 
+	background-color:#cf4039; 
 	color:white; 
 	font-size:20px; 
 	height:50px; 
 	width:300px; 
 	border-radius:50px; 
-	border-color:#F40505;
+	border-width: 0;
 	text-align:center;
      margin:auto;
 	margin-top:45px;
 	}
 	
 .razr-lm-mobile-2{
-	background-color:#F40505; 
+	background-color:#cf4039; 
 	color:white; 
 	font-size:20px; 
 	height:50px; 
 	width:300px; 
 	border-radius:50px; 
-	border-color:#F40505;
+	border-width: 0;
 	text-align:center;
 	margin:auto;
 	margin-top:45px;
