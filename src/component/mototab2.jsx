@@ -165,7 +165,7 @@ import '../css/mototab2.css';
                      <h4 class="header6-para">All your entertainment in one space</h4>
                      <br/>
 
-                     <img src="header6pic.jpg" alt='....'/>
+                     <img class='header6-img' src="header6pic.jpg" height='120px' width='420px' alt='....'/>
 
                   </div>
            </div>

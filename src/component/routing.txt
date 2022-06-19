@@ -1,0 +1,31 @@
+import React from 'react';
+import './App.css';
+import Main from './component/main';
+//import Razr_family from "./component/razr_family";
+//import Smart_product from "./component/smart";
+//import Mototab from "./component/mototab";
+
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+
+function App() {
+  return (
+    <div className="App">
+       <Router>
+          <Routes>
+            <Route exact path ="/" component={Main} />
+				{/* <Route path="/razr_family" component={Razr_family} />
+            <Route path="/smart" component={Smart_product} />		
+<Route path="/mototab" component={Mototab} />	 */}		
+			
+			
+			
+			
+			
+			{/* <Navigate to="/" /> */}
+          </Routes>
+        </Router>
+    </div>
+  );
+}
+
+export default App;

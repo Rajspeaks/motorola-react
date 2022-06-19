@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from './navbar';
 import Sitemap from './sitemap';
 import Footer from './footer';
+import {Link} from 'react-router-dom';
 import '../css/razr.css';
 
   const Razr_family = () =>{
@@ -12,15 +13,15 @@ import '../css/razr.css';
 		   
   </div>
   
-   <div className="container-fluid outer">
+   <div className="container-fluid razr-outer">
 	      
 		  <div className="row">
 		  
-		  <img id="header" src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/8b545658-0425-402c-8bb0-9e43145dd3f3___490bcf2932df7de6a72fdde7a59679c4.jpg" height="100%" width="100%" alt='....'/>
+		  <img id="razr-header" src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/8b545658-0425-402c-8bb0-9e43145dd3f3___490bcf2932df7de6a72fdde7a59679c4.jpg" height="100%" width="100%" alt='....'/>
 		  
 		  </div>
 		 
-		  </div>
+	  </div>
   
        <div className="container-fluid outer pt-5 pb-5">
 	      
@@ -48,7 +49,7 @@ import '../css/razr.css';
 							 <p id="razr-find-store"><a href="#"> Find Stores Near you </a></p>
 						
 							 
-					<a href="#"><button class="razr-lm1">Learn More </button></a>
+					<Link to="/razr_home" style={{ textDecoration: 'none' }}><button class="razr-lm1">Learn More </button></Link>
                             
                         </div>
                     </div>

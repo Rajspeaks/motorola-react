@@ -22,7 +22,7 @@ const Navbar = () =>{
                                     <NavLink to="/razr_family" style={{ textDecoration: 'none' }}><li className='cho'><span><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/cbfa540b-da93-4ee5-94e7-439b4c0e177b___02b335b7de50002f336a99f4907fe7b3.png" alt="..."></img><figcaption>razr family</figcaption></figure></span></li></NavLink>
                                    
                                     <NavLink to="/edge_family" style={{ textDecoration: 'none' }}><li className='ch'> <span><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/ce94a465-e7ef-4534-889c-cde9e3efaef3___32e80f77432c50b1f2cedf1f73f59f5e.png" alt="..."></img><figcaption>motorola edge family</figcaption></figure></span></li></NavLink>
-                                   <li className='c'><span><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/e28c1032-4071-41c9-aa5f-f608f538e378___bf1898da74876b62e52e2af5984325d9.png" alt="..."></img><figcaption>motorola G family</figcaption></figure></span></li>
+                                   <NavLink to="/g_family" style={{ textDecoration: 'none' }}> <li className='c'><span><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/e28c1032-4071-41c9-aa5f-f608f538e378___bf1898da74876b62e52e2af5984325d9.png" alt="..."></img><figcaption>motorola G family</figcaption></figure></span></li></NavLink>
                                     </ul>
                                     </div>
                                      </li>
@@ -36,15 +36,15 @@ const Navbar = () =>{
                                     </ul>
                                     </div>
                                      </li>
-                                     <li class="dropdown"><NavLink to="" class="btn btn-secondary dropdown-toggle"className='nav' role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">Accessories</NavLink>
+                                    <li class="dropdown"><NavLink to="" class="btn btn-secondary dropdown-toggle"className='nav' role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">Accessories</NavLink>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <ul  className='chobi'>
-                                    <li className='cho'><span><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/accessories-all@2x_0___8be1faaf12ef7d3b8b3e53a281ecbb15.png" alt="..."></img><figcaption>All Accessories</figcaption></figure></span></li>
+                                     <NavLink to="/acc_family" style={{ textDecoration: 'none' }}><li className='cho'><span><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/accessories-all@2x_0___8be1faaf12ef7d3b8b3e53a281ecbb15.png" alt="..."></img><figcaption>All Accessories</figcaption></figure></span></li></NavLink>
                                    
                                     </ul>
                                     </div>
                                      </li>
-                                     <li class="dropdown"><NavLink to="/" class="btn btn-secondary dropdown-toggle" className='nav'role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">Smart Products</NavLink>
+                                     <li class="dropdown"><NavLink to="" class="btn btn-secondary dropdown-toggle" className='nav'role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">Smart Products</NavLink>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <ul  className='chobi'>
                                     <NavLink to="/smart_product" style={{ textDecoration: 'none' }}><li className='cho'><span><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/All%20Motorola%20Home%20208x240___0b2ca965c8d8837669e2d3f9664352b4.png" alt="..."></img><figcaption>All Motorola Home</figcaption></figure></span></li></NavLink>
@@ -53,7 +53,7 @@ const Navbar = () =>{
                                     </ul>
                                     </div>
                                      </li>
-                                     <li class="dropdown"><NavLink to="" class="btn btn-secondary dropdown-toggle" className='nav'role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">Software Updates</NavLink>
+                                     <li class="dropdown"><NavLink to="" class="btn btn-secondary dropdown-toggle" className='nav'role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">Software</NavLink>
                                     
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <ul  className='chobi'>
@@ -78,9 +78,9 @@ const Navbar = () =>{
     Phones
   </h4>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/cbfa540b-da93-4ee5-94e7-439b4c0e177b___02b335b7de50002f336a99f4907fe7b3.png" alt="..."></img><span>razr family</span></figure></a>
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/ce94a465-e7ef-4534-889c-cde9e3efaef3___32e80f77432c50b1f2cedf1f73f59f5e.png" alt="..."></img><span>motorola edge family</span></figure></a>
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/ce94a465-e7ef-4534-889c-cde9e3efaef3___32e80f77432c50b1f2cedf1f73f59f5e.png" alt="..."></img><span>motorola g family</span></figure></a>
+ <NavLink to="/razr_family" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/cbfa540b-da93-4ee5-94e7-439b4c0e177b___02b335b7de50002f336a99f4907fe7b3.png" alt="..."></img><span>razr family</span></figure></NavLink>
+  <NavLink to="/edge_family" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/ce94a465-e7ef-4534-889c-cde9e3efaef3___32e80f77432c50b1f2cedf1f73f59f5e.png" alt="..."></img><span>motorola edge family</span></figure></NavLink>
+  <NavLink to="/g_family" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/ce94a465-e7ef-4534-889c-cde9e3efaef3___32e80f77432c50b1f2cedf1f73f59f5e.png" alt="..."></img><span>motorola g family</span></figure></NavLink>
   </div>
 </div>
          </li>
@@ -90,8 +90,8 @@ const Navbar = () =>{
     Tablets 
   </h4>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/5020bb3b-9374-49fa-b9ba-557b727c03d2___2fc815624f40189d44a09612200d0e8c.png" alt="..."></img><span>Moto Tab G70</span></figure></a>
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/ceda6f7e-b382-4322-83e6-cfa25ebd0772___9e9cbf1bb760fead61ba0301e768dc44.png" alt="..."></img><span>Moto Tab G20</span></figure></a>
+   <NavLink to="/mototab" style={{ textDecoration: 'none' }}> <figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/5020bb3b-9374-49fa-b9ba-557b727c03d2___2fc815624f40189d44a09612200d0e8c.png" alt="..."></img><span>Moto Tab G70</span></figure></NavLink>
+   <NavLink to="/mototab2" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/ceda6f7e-b382-4322-83e6-cfa25ebd0772___9e9cbf1bb760fead61ba0301e768dc44.png" alt="..."></img><span>Moto Tab G20</span></figure></NavLink>
   </div>
 </div>
          </li>
@@ -101,7 +101,7 @@ const Navbar = () =>{
   Accessories 
   </h4>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/accessories-all@2x_0___8be1faaf12ef7d3b8b3e53a281ecbb15.png" alt="..."></img><span>All Accessories</span></figure></a>
+  <NavLink to="/acc_family" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/accessories-all@2x_0___8be1faaf12ef7d3b8b3e53a281ecbb15.png" alt="..."></img><span>All Accessories</span></figure></NavLink>
    
   </div>
 </div>
@@ -112,7 +112,7 @@ const Navbar = () =>{
   Smart Products 
   </h4>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/All%20Motorola%20Home%20208x240___0b2ca965c8d8837669e2d3f9664352b4.png" alt="..."></img><span>All Motorola Home</span></figure></a>
+    <NavLink to="/smart_product" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/All%20Motorola%20Home%20208x240___0b2ca965c8d8837669e2d3f9664352b4.png" alt="..."></img><span>All Motorola Home</span></figure></NavLink>
   </div>
 </div>
          </li>
@@ -122,9 +122,9 @@ const Navbar = () =>{
   Software 
   </h4>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/top-nav-andorid-android-robot-2x_0___4ebb3b17eb6d13d2982b07f38245ee40.png" alt="..."></img><span>software updates</span></figure></a>
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/92813251-2300-48e6-9bc1-ec273618b990___4ebb3b17eb6d13d2982b07f38245ee40.png" alt="..."></img><span>Android 10</span></figure></a>
-    <a class="dropdown-item" href="#"><figure><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/df4e5f56-28ed-4166-a8cc-dc5ef78b6e87___552b08eac0ad4b2bae509f0f37ab8d51.png" alt="..."></img><span>Android 11</span></figure></a>
+    <NavLink to="/software" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/top-nav-andorid-android-robot-2x_0___4ebb3b17eb6d13d2982b07f38245ee40.png" alt="..."></img><span>software updates</span></figure></NavLink>
+   <NavLink to="/and10" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/92813251-2300-48e6-9bc1-ec273618b990___4ebb3b17eb6d13d2982b07f38245ee40.png" alt="..."></img><span>Android 10</span></figure></NavLink>
+    <NavLink to="/and11" style={{ textDecoration: 'none' }}><figure class="dropdown-item"><img src="https://motorolain.vtexassets.com/assets/vtex.file-manager-graphql/images/df4e5f56-28ed-4166-a8cc-dc5ef78b6e87___552b08eac0ad4b2bae509f0f37ab8d51.png" alt="..."></img><span>Android 11</span></figure></NavLink>
   </div>
 </div>
          </li>
