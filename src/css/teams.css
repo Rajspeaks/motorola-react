@@ -1,0 +1,176 @@
+.acc_outer{background-color:#001428;
+	color:white;}
+
+#acc-header{
+   margin-top:54px;
+    }
+	
+	
+.acc_family{
+	background-color:#001428;
+	color:white;
+	
+}
+	
+.acc_title{
+	font-size:30px;
+	text-align:center;
+   font-family: sans-serif;
+	letter-spacing: 1px;
+	font-weight: ligher;
+	margin-top: 30px;
+}
+
+.acc_sub_title{
+	font-size:20px;
+	text-align:center;
+   font-family: sans-serif;
+	letter-spacing: 2px;
+	font-weight: ligher;
+	margin-top: 30px;
+}
+
+.acc_next_title{
+
+	  font-zie: 27px;
+	  font-family: sans-serif;
+	  letter-spacing: 1px;
+	  margin-top:30px;
+}
+
+hr{
+    margin: 0px;
+    /* border: 1px; */
+    background-color: grey;
+}
+
+
+/* cards */
+
+.acc-r1{
+	 margin-top:30px;
+     margin-right:90px;	 
+	}
+
+.acc-c1{
+	width: 360px;
+	height: 780px;
+	color:black;
+	text-align:left;
+	margin-left:90px;
+}
+
+
+	
+.acc-card-img-top{height:250px; width:250px;margin:auto;}
+
+
+.acc-card-text{color:black; margin-right:50px;}
+
+.acc-card-title{margin-left:6px;color:black;font-weight: lighter;font-size: 28px;}
+
+.allacc{margin-right:80%;margin-top:128px;}
+
+.acc-lm1{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:280px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+    margin-left:28px;
+	margin-top:100px;
+	}
+
+
+/* --------------------------mobile version starts here:------------------------- */
+
+
+
+
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+	
+.acc-lm-mobile-1{
+	background-color:#F40505; 
+	color:white; 
+	font-size:20px; 
+	height:50px; 
+	width:300px; 
+	border-radius:50px; 
+	border-color:#F40505;
+	text-align:center;
+     margin:auto;
+	margin-top:45px;
+	}
+	
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+
+/* @media screen and (max-width: px) {
+	
+	#find_store{margin-top:} */
+
+	/*------------------------------------------------------------------------------------*/
+
+	/* Three columns side by side */
+.column-teams {
+  float: left;
+  width: 23.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column-teams {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card-teams {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container-teams {
+  padding: 0px;
+}
+
+/* Clear floats */
+.container-teams::after, .row-teams::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title-teams {
+  color: grey;
+}
+
+.button-teams {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button-teams:hover {
+  background-color: #555;
+}

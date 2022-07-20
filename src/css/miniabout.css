@@ -1,0 +1,26 @@
+.mini-about{
+    background-color: #001428;
+}
+
+
+.mini-head{
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 21pt;
+    color: white;
+    text-align:justify;
+	  float:left;
+    display: block;
+    width: auto;
+    border: none;
+	  line-height: 21px;
+    margin-top: 30px;
+	
+}
+
+.mini-para{margin: auto;}
+
+/*@media screen and (max-width: 900px) {
+  #logo {
+    width: 190px;
+  }
+}*/
