@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from './navbar';
+import Miniabout from './miniabout';
 import Sitemap from './sitemap';
 import Footer from './footer';
 import '../css/g22.css';
@@ -212,7 +213,7 @@ import '../css/g22.css';
 
   <div>
            
-          
+           <Miniabout/>
            <Sitemap/>
            <Footer/>
      

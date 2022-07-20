@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from './navbar';
+import Miniabout from './miniabout';
 import Sitemap from './sitemap';
 import Footer from './footer';
 import '../css/mototab.css';
@@ -607,6 +608,7 @@ import '../css/mototab.css';
 
     <div>
 
+     <Miniabout/>
      <Sitemap/>
      <Footer/>
 

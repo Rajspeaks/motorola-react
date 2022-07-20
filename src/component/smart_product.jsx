@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from './navbar';
+import Miniabout from './miniabout';
 import Sitemap from './sitemap';
 import Footer from './footer';
 import '../css/smart_product.css';
@@ -193,7 +194,7 @@ import '../css/smart_product.css';
 		  
 		   <div>
            
-          
+           <Miniabout/>
            <Sitemap/>
            <Footer/>
 		 

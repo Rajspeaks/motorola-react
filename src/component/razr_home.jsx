@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from './navbar';
+import Miniabout from './miniabout';
 import Sitemap from './sitemap';
 import Footer from './footer';
 import '../css/razr_home.css';
@@ -26,7 +27,7 @@ import '../css/razr_home.css';
 
    <div>
            
-          
+          <Miniabout/>
            <Sitemap/>
            <Footer/>
      

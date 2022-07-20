@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import '../css/sitemap.css';
 
 const Sitemap = () =>{
@@ -16,8 +17,8 @@ const Sitemap = () =>{
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
   <ul>
   
-    <li><a class="dropdown-item" href="#">razr family</a></li>
-  <li>  <a class="dropdown-item" href="#">moto g family</a></li>
+    <Link to="/razr_family" style={{ textDecoration: 'none' }} class="dropdown-item"><li>razr family</li></Link>
+  <li><Link to="/g_family" style={{ textDecoration: 'none' }} class="dropdown-item">moto g family</Link></li>
 <li>    <a class="dropdown-item" href="#">all phones</a></li>
 
 
@@ -78,9 +79,9 @@ const Sitemap = () =>{
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
   <ul>
   
-    <li><a class="dropdown-item" href="#">phones</a></li>
-  <li>  <a class="dropdown-item" href="#">moto one fusion</a></li>
-<li>    <a class="dropdown-item" href="#">moto g4 plus</a></li>
+    <li><a class="dropdown-item" href="#">about us</a></li>
+  <li>  <a class="dropdown-item" href="#">team</a></li>
+<li>    <a class="dropdown-item" href="#">brands</a></li>
 
 
 </ul>
@@ -137,9 +138,9 @@ const Sitemap = () =>{
                 </div>
                 <div className="col-md-3 col-sm-12">
                     <li>
-                                <ul>phones</ul>
-                                <ul>moto one fusion</ul>
-                                <ul>moto g4 plus</ul>
+                                <ul>about us</ul>
+                                <ul>team</ul>
+                                <ul>brands</ul>
                     </li>
                 </div>
                 

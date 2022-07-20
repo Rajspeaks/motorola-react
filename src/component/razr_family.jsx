@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from './navbar';
+import Miniabout from './miniabout';
 import Sitemap from './sitemap';
 import Footer from './footer';
 import {Link} from 'react-router-dom';
@@ -165,7 +166,7 @@ import '../css/razr.css';
 		  
 		  <div>
            
-          
+           <Miniabout/>
            <Sitemap/>
            <Footer/>
 		 

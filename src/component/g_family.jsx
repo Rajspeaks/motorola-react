@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../component/navbar";
+//import {Button} fron "react-bootstrap";
+import Miniabout from './miniabout';
 import Sitemap from './sitemap';
 import Footer from './footer';
 import {Link} from 'react-router-dom';
@@ -230,7 +232,7 @@ const G_family = () =>{
 		  
 		  <div>
            
-          
+           <Miniabout/>
             <Sitemap/>
            <Footer/> 
 		 

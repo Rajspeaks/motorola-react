@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './navbar';
 import Slider from './slider';
 import Menu from './menu';
+import Miniabout from './miniabout';
 import Sitemap from './sitemap';
 import Footer from './footer';
 
@@ -11,7 +12,8 @@ const Main = () =>{
            
 		   <Navbar/>	   
 		   <Slider/>
-           <Menu/>	   
+           <Menu/>	
+           <Miniabout/>   
 		   <Sitemap/>
 		   <Footer/>
 		 
