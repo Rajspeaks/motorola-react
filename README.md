@@ -14,14 +14,17 @@ The project was developed, guided and supervised under Ardent Computech Private 
 
 ### Team Members:
 
-1. Rajdeep Das - @Rajspeaks
-2. Somesh Das - @somesh99-code
+1. [Rajdeep Das](https://github.com/Rajspeaks)
+2. [Somesh Das](https://github.com/@somesh99-code)
 3. Saikat Biswas
-4. Ankita Dey - @ankd24
+4. [Ankita Dey](https://github.com/@ankd24)
 
-### Screenshot of homepage:
+### Screenshots of homepage:
 
 ![Heritage](https://user-images.githubusercontent.com/44817007/188267853-5fd76679-b057-4a45-a186-719d3ace30a6.png)
+
+![motog](https://user-images.githubusercontent.com/44817007/188267984-2b0b24b4-758c-4126-9123-8944104b9377.jpeg)
+
 
 
 # Process to start with ReactJS
