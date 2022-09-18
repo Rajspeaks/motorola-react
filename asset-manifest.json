@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/motorola-react/static/css/main.2ad144c4.css",
+    "main.js": "/motorola-react/static/js/main.6f813672.js",
+    "static/js/787.484b08c3.chunk.js": "/motorola-react/static/js/787.484b08c3.chunk.js",
+    "index.html": "/motorola-react/index.html",
+    "main.2ad144c4.css.map": "/motorola-react/static/css/main.2ad144c4.css.map",
+    "main.6f813672.js.map": "/motorola-react/static/js/main.6f813672.js.map",
+    "787.484b08c3.chunk.js.map": "/motorola-react/static/js/787.484b08c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ad144c4.css",
+    "static/js/main.6f813672.js"
+  ]
+}
