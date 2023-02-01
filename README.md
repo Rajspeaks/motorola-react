@@ -45,5 +45,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+Catch me on: <code><a href="https://linkedin.com/in/itsrajdeepdas"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></code>&nbsp;
+<code><a href="https://twitter.com/itsrajdeepdas"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a></code>&nbsp;
+
 
 &copy; Rajdeep Das
