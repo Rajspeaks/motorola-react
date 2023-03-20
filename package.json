@@ -48,6 +48,6 @@
     "@babel/preset-env": "^7.17.12",
     "@babel/preset-react": "^7.17.12",
     "babel-loader": "^8.2.5",
-    "webpack": "^5.72.1"
+    "webpack": "^5.76.0"
   }
 }
